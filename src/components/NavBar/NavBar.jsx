@@ -1,9 +1,37 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { MenuItems } from './MenuItems';
+import './Navbar.css';
+import logo from '../../images/splash_logo.png';
 
-const NavBar = () => (
-  <div>
-    NavBar
-  </div>
-);
+class Navbar extends Component {
+  state = { clicked: false}
 
-export default NavBar;
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked })
+  }
+
+  render() {
+    return (
+        <nav className="NavbarItems">
+          <a href="/" className="navbar-logo"><img className="logo" src={logo} alt="logo"></img></a>
+          <div className="menu-icon" onClick={this.handleClick }>
+            <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}> </i>
+          </div>
+          <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}> 
+            {MenuItems.map((item, index) =>{
+              return (
+                <li key={index}>
+                  <a className={item.cName} href={item.ul}>
+                  {item.title}
+                  </a>
+                </li>
+              )
+            })}
+          </ul>
+        </nav>
+      )
+  }
+}
+
+export default Navbar;
+
