@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import React from 'react';
 import About from '../../components/About/About';
 import Catalogue from '../../components/Catalogue/Catalogue';
 import Showroom from '../../components/Showroom/Showroom';
