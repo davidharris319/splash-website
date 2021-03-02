@@ -29,16 +29,16 @@ function Home() {
 
       <Carousel effect="fade">
         <div>
-          <h3 style={contentStyle}><img src={brown_plant_holders} /><img src={brown_plant_holders} /><img src={brown_plant_holders} /></h3>
+          <h3 style={contentStyle}><img src={brown_plant_holders} /></h3>
         </div>
         <div>
-          <h3 style={contentStyle}>2</h3>
+          <h3 style={contentStyle}><img src={brown_plant_holders} /></h3>
         </div>
         <div>
-          <h3 style={contentStyle}>3</h3>
+          <h3 style={contentStyle}><img src={brown_plant_holders} /></h3>
         </div>
         <div>
-          <h3 style={contentStyle}>4</h3>
+          <h3 style={contentStyle}><img src={brown_plant_holders} /></h3>
         </div>
       </Carousel>
 
