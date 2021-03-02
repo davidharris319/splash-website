@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
-import './Navbar.css';
+import './NavBar.css';
 import logo from '../../images/splash_logo.png';
 
-class Navbar extends Component {
+class NavBar extends Component {
   state = { clicked: false}
 
   handleClick = () => {
@@ -33,5 +33,5 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default NavBar;
 

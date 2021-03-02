@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
 }
 
 .navbar-logo {
@@ -77,7 +78,7 @@
     display: table;
   }
 
-  .nav-links: hover {
+  .nav-links:hover {
     /* TODO */
   }
 
