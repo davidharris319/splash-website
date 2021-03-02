@@ -12,7 +12,7 @@
 
 .logo {
   max-width: 180px;
-  padding-top: 30px;
+  padding: 30px 0px;
 }
 
 .fa-react {
@@ -29,6 +29,7 @@
   width: 70vw;
   justify-content: end;
   margin-right: 2rem;
+  margin-top: 15px;
 }
 
 .nav-links {
@@ -44,7 +45,7 @@
   display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 888px) {
   .NavbarItems {
     position: relative;
   }
@@ -52,14 +53,15 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 500px;
+    width: calc(100% + 10%);
+    height: 350px;
     position: relative;
     top: 80px;
-    margin-top: 500px;
+    margin-top: 322px;
     left: -100%;
     opacity: 1;
     transition: all 0.5 ease;
+    margin-right: 0;
   }
 
   .nav-menu.active {
@@ -73,7 +75,7 @@
 
   .nav-links {
     text-align: center;
-    padding: 1.5rem;
+    padding-top: 1rem;
     width: 100%;
     display: table;
   }
@@ -84,18 +86,14 @@
 
   .navbar-logo {
     position: absolute;
-    top: 0;
     padding-left: auto;
   }
 
-  .logo {
-    padding-top: 10px;
-  }
   .menu-icon {
     display: block;
     position: absolute;
     top: 0;
-    padding-top: 15px;
+    padding-top: 10px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
