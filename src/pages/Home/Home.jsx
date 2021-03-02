@@ -29,7 +29,7 @@ function Home() {
 
       <Carousel effect="fade">
         <div>
-          <h3 style={contentStyle}><img src={brown_plant_holders} />123</h3>
+          <h3 style={contentStyle}><img src={brown_plant_holders} />1234</h3>
         </div>
         <div>
           <h3 style={contentStyle}>2</h3>
