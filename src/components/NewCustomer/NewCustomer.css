@@ -1,0 +1,25 @@
+.new-customer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+img {
+  border-radius: 10px;
+  width: 50%;
+  padding-right: 10%;
+  margin-top: 0;
+  max-width: 600px;
+}
+
+.text-box {
+  max-width: 600px;
+}
+
+    button {
+      background: #c1d8f0;
+    }
