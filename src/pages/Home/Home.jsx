@@ -7,7 +7,7 @@ import "normalize.css/normalize.css";
 import "./slider-animations.css";
 import "./styles.css";
 
-import brown_plant_holders from '../../images/product_pictures/brown_plant_holders.jpg'
+import frames from '../../images/product_pictures/frames.jpg'
 import circle_shelves from '../../images/product_pictures/circle_shelves.jpeg'
 
 import About from '../../components/About/About';
@@ -21,13 +21,13 @@ const content = [
     title: "Supplying the giftware industry.",
     description: "",
     button: "Shop Now",
-    image: brown_plant_holders,
+    image: frames,
   },
   {
     title: "FUN IN THE SUN",
     description: "",
     button: "Discover",
-    image: brown_plant_holders,
+    image: frames,
   },
   {
     title: "Phasellus volutpat metus",
@@ -36,18 +36,6 @@ const content = [
     image: "https://i.imgur.com/DvmN8Hx.jpg",
   },
 ];
-
-
-const contentStyle = {
-  maxHeight: '650px',
-  color: '#fff',
-  // lineHeight: '640px',
-  textAlign: 'center',
-  background: '#364d79',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center'
-};
 
 
 function Home() {
@@ -65,12 +53,6 @@ function Home() {
             <p>{item.description}</p>
             <button>{item.button}</button>
           </div>
-          {/* <section>
-            <img src={item.userProfile} alt={item.user} />
-            <span>
-              Posted by <strong>{item.user}</strong>
-            </span>
-          </section> */}
         </div>
       ))}
     </Slider>
