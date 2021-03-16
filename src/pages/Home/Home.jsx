@@ -15,6 +15,8 @@ import Catalogue from '../../components/Catalogue/Catalogue';
 import Showroom from '../../components/Showroom/Showroom';
 import NewCustomer from '../../components/NewCustomer/NewCustomer';
 import Contact from '../../components/Contact/Contact';
+import Video from '../../components/Video/Video';
+
 
 const content = [
   {
@@ -62,6 +64,7 @@ function Home() {
       <Catalogue/>
       <Showroom/>
       <Contact />
+      <Video />
     </div>
   )
 }
