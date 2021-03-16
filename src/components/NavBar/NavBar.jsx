@@ -3,6 +3,8 @@ import { MenuItems } from './MenuItems';
 import './NavBar.css';
 import logo from '../../images/splash_logo.png';
 
+import iglogo from '../../images/instagram.svg';
+
 class Navbar extends Component {
   state = { clicked: false}
 
@@ -27,6 +29,7 @@ class Navbar extends Component {
                 </li>
               )
             })}
+            <a href="/" className="social-icon"><img className="logo" src={iglogo} alt="logo"></img></a>
           </ul>
         </nav>
       )

@@ -1,15 +1,25 @@
 .NavbarItems {
-  background: white;
-  height: 120px;
+  background: rgb(255,255,255, 0.9);
+  height: 121px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Lato';
+  position:fixed;
+  width:100%;
+  left:0;
+  top:0;
+  right: 0;
+  z-index: 1000;
 }
 
 img {
   height: 200%;
   width: 200%;
+}
+
+.social-icon img {
+  height: 40%;
+  width: 40%;
 }
 
 .navbar-logo {
@@ -35,6 +45,8 @@ img {
   justify-content: end;
   margin-right: 2rem;
   margin-top: 15px;
+
+  
 }
 
 .nav-links {
@@ -48,7 +60,7 @@ img {
   position: relative;
 }
 
-a:hover {
+li a:hover {
   color: black;
 }
 
@@ -73,9 +85,21 @@ li a:hover::after {
   display: none;
 }
 
+.social-icon {
+  display: none;
+}
+
+
+
 @media screen and (max-width: 888px) {
   .NavbarItems {
-    position: relative;
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    background: rgb(255,255,255, 1);
   }
 
   .nav-menu {
@@ -108,9 +132,10 @@ li a:hover::after {
     display: table;
     width: 100%;
     text-align: center;
+    font-size: 40px
   }
 
-  a:hover::after {
+  li a:hover::after {
     width: 0%; 
     left: 0; 
   }
@@ -131,7 +156,17 @@ li a:hover::after {
     cursor: pointer;
   }
 
+  .social-icon {
+    display: block;
+  }
+
   .fa-times {
     font-size: 2rem;
   }
+
+  .social {
+    display: visible;
+  }
+
 }
+

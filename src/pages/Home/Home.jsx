@@ -58,8 +58,6 @@ function Home() {
     </Slider>
       <NewCustomer />
       <About/>
-      <Catalogue/>
-      <Showroom/>
       <Contact />
     </div>
   )

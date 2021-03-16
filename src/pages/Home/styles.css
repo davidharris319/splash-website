@@ -31,7 +31,7 @@ button {
   padding: 15px 40px;
   font-weight: 400;
   font-size: 13px;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
   cursor: cursor;
   width: 200px;
 }
@@ -85,6 +85,7 @@ button:hover::before, button:focus::before, button:active::before {
 }
 
 .slider-wrapper {
+  margin-top: 121px;
   position: relative;
   height: 80vh;
   overflow: hidden;
