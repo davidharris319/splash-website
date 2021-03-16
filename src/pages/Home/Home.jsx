@@ -35,7 +35,7 @@ const content = [
     title: "Phasellus volutpat metus",
     description: "",
     button: "Buy now",
-    image: "https://i.imgur.com/DvmN8Hx.jpg",
+    image: frames,
   },
 ];
 
@@ -48,8 +48,9 @@ function Home() {
         <div
           key={index}
           className="slider-content"
-          style={{ background: `url('${item.image}') no-repeat center center` }}
+          style={{ background: `url('${item.image}') no-repeat center center`}}
         >
+          {/* <div className="bg-image" style={{ background: `url('${item.image}') no-repeat center center`}}></div> */}
           <div className="inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>
@@ -58,11 +59,8 @@ function Home() {
         </div>
       ))}
     </Slider>
-
-      <About/>
       <NewCustomer />
-      <Catalogue/>
-      <Showroom/>
+      <About/>
       <Contact />
       <Video />
     </div>

@@ -1,26 +1,17 @@
 import React from "react";
+import "./NewCustomer.css";
 
 import worldMap from "../../images/product_pictures/world_map.jpg";
-
-import "./NewCustomer.css";
 
 const NewCustomer = () => {
   return (
     <section className="new-customer-container">
-      <img src={worldMap} alt="World Map" />
+    <img src={worldMap} alt="World Map" />
       <div className="text-box">
         <h1>
-          Your trusted leader in the giftware industry to provide the most
-          modern selection home decor, giftware and more.{" "}
+         Thank you for your interest in Splash.
         </h1>
-        <br />
-        <br />
-        Thank you for your interest in Splash. Our products may only be bought
-        wholesale by approved trade businesses.
-        <br />
-        <br />
-        Interested in becoming a dealer? Apply today to shop the entire product
-        line, view prices and easily order online!
+         Our products may only be bought wholesale by approved retailers. Interested in becoming a retailer? Apply today to view our entire product line and to get access to wholesale pricing!
         <br />
         <br />
         <a

@@ -1,37 +1,46 @@
 .contact-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  min-height: 800px;
   margin: 0 auto;
-  width: 90%;
-  text-align: center;
-}
-
-h1,
-h3 {
-  text-align: center;
+  width: 80%;
+  background: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .splash-map {
-  border-radius: 10px;
-  padding-right: 10%;
+  margin-right: 40px;
   margin-top: 0;
   align-items: center;
-  border-radius: 10px;
   max-width: 50%;
 }
 
-button {
+.contact-container button {
   margin-top: 25px;
   background: #c1d8f0;
 }
 
-.column {
-  float: left;
-  width: 50%;
-}
-
-.contact-box {
+.contact-container .contact-box {
   max-width: 600px;
   }
+
+.contact-container button {
+  background: black !important;
+  border: 1px solid black !important;
+  width: 225px
+}
+
+@media (max-width: 800px) {
+.contact-container {
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  }
+  .splash-map {
+  margin-left: 40px;
+  margin-bottom: 20px;
+  align-items: center;
+  max-width: 100%;
+}
+}
