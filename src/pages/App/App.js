@@ -6,6 +6,7 @@ import NewCustomer from "../NewCustomer/NewCustomer";
 import Contact from "../../components/Contact/Contact";
 import NavBar from "../../components/NavBar/NavBar";
 import Video from "../../components/Video/Video";
+import AboutPage from "../AboutPage/AboutPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/new-customer" component={NewCustomer} />
         <Route exact path="/video" component={Video} />
+        <Route exact path="/about" component={AboutPage} />
       </Switch>
     </div>
   );
