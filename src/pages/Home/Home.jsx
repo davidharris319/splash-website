@@ -56,9 +56,8 @@ function Home() {
         </div>
       ))}
     </Slider>
-
-      <About/>
       <NewCustomer />
+      <About/>
       <Catalogue/>
       <Showroom/>
       <Contact />

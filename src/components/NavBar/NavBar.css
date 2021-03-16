@@ -52,18 +52,18 @@ a:hover {
   color: black;
 }
 
-a::after {
+li a::after {
   bottom: 0;
   content: "";
   display: block;
   height: 2px;
   position: absolute;
-  background: lightblue;
+  background: #0413AC;
   transition: 0.4s ease;
   width: 0;
 }
 
-a:hover::after {
+li a:hover::after {
   width: 100%; 
   left: 0; 
 }

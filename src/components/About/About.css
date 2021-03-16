@@ -1,28 +1,30 @@
 .about-container {
-  width: 90%;
-  margin: 0 auto;
   height: 100%;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .about-background {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
+  height: 600px;
   margin-top: 40px;
   background: url("../../images/product_pictures/wedding_bank.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 800px;
-  text-align: center;
+  background-size: cover;
 }
 
-.text-box {
-  background: #ffffff;
-  max-width: 520px;
-  max-height: 300px;
-  margin: auto;
-  padding: 38px 20px;
-  border-radius: 5px;
+.about-background .text-box {
+  background: white;
+  flex: 0 0 600px;
+  padding: 40px;
 }
 
+
+@media (max-width: 800px) {
+
+  .about-background .text-box {
+    flex: 0 0 300px;
+  }
+}
