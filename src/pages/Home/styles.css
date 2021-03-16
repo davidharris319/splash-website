@@ -249,7 +249,7 @@ button:hover::before, button:focus::before, button:active::before {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 888px) {
   .slider-content .inner h1 {
     font-size: 42px;
   }
