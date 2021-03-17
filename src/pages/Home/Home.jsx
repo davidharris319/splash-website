@@ -48,7 +48,6 @@ function Home() {
           className="slider-content"
           style={{ background: `url('${item.image}') no-repeat center center`}}
         >
-          {/* <div className="bg-image" style={{ background: `url('${item.image}') no-repeat center center`}}></div> */}
           <div className="inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>
