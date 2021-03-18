@@ -7,6 +7,7 @@ import Contact from "../../components/Contact/Contact";
 import NavBar from "../../components/NavBar/NavBar";
 import Video from "../../components/Video/Video";
 import AboutPage from "../AboutPage/AboutPage";
+import Footer from "../../components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/video" component={Video} />
         <Route exact path="/about" component={AboutPage} />
       </Switch>
+      <Footer />
     </div>
   );
 }

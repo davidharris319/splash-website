@@ -61,8 +61,8 @@ function Home() {
     </Slider>
       <NewCustomer />
       <About/>
-      <Contact />
       <Video />
+      <Contact />
     </div>
   )
 }
