@@ -1,0 +1,29 @@
+.TermsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.terms-picture {
+  border-style: none;
+  margin-top: 150px;
+  max-height: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.terms-div {
+  padding-bottom: 20px;
+}
+
+.text-container {
+  width: 80%;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
