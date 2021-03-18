@@ -19,18 +19,18 @@ const Footer = () => (
         <div className="footer-col">
           <h3 className="footer-headers">Information</h3>
           <ul className="list-unstyled">
-            <li>About</li>
+            <li><a href="/about">About</a></li>
             <li>Catalogue</li>
             <li>Contact</li>
-            <li>Shipping and Returns</li>
+            <li><a href="/terms-of-trading">Terms of Trading</a></li>
           </ul>
         </div>
         {/* Column 3 */}
         <div className="footer-col">
           <h3 className="footer-headers">Social Media</h3>
           <ul className="list-unstyled">
-            <li>Facebook</li>
-            <li>Instagram</li>
+            <li><a href="https://www.facebook.com/SplashInternationalMarketing/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/splash_int_marketing/">Instagram</a></li>
             <li>Email</li>
           </ul>
         </div>
