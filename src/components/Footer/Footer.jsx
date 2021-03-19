@@ -20,7 +20,7 @@ const Footer = () => (
           <h3 className="footer-headers">Information</h3>
           <ul className="list-unstyled">
             <li><a href="/about">About</a></li>
-            <li>Catalogue</li>
+            <li><a href="http://splash.remotecatalog.com/login.php">Catalogue</a></li>
             <li>Contact</li>
             <li><a href="/terms-of-trading">Terms of Trading</a></li>
           </ul>

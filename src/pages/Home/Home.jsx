@@ -8,7 +8,10 @@ import "./slider-animations.css";
 import "./styles.css";
 
 import frames from '../../images/product_pictures/frames.jpg'
-import circle_shelves from '../../images/product_pictures/circle_shelves.jpeg'
+import garden from '../../images/product_pictures/garden.jpg'
+import foodEnt from '../../images/product_pictures/food-ent.jpg'
+
+
 
 import About from '../../components/About/About';
 import Catalogue from '../../components/Catalogue/Catalogue';
@@ -28,14 +31,14 @@ const content = [
   {
     title: "FUN IN THE SUN",
     description: "",
-    button: "Discover",
-    image: frames,
+    button: "Visit Catalogue",
+    image: garden,
   },
   {
-    title: "Phasellus volutpat metus",
+    title: "Supplying the giftware industry.",
     description: "",
-    button: "Buy now",
-    image: frames,
+    button: "Visit Catalogue",
+    image: foodEnt,
   },
 ];
 
