@@ -57,7 +57,7 @@ function Home() {
           <div className="inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>
-            <button>{item.button}</button>
+            <button><a href="http://splash.remotecatalog.com/login.php">{item.button}</a></button>
           </div>
         </div>
       ))}
