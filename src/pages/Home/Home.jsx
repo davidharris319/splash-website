@@ -11,14 +11,13 @@ import frames from '../../images/product_pictures/frames.jpg'
 import garden from '../../images/product_pictures/garden.jpg'
 import foodEnt from '../../images/product_pictures/food-ent.jpg'
 
-
-
 import About from '../../components/About/About';
 import Catalogue from '../../components/Catalogue/Catalogue';
 import Showroom from '../../components/Showroom/Showroom';
 import NewCustomer from '../../components/NewCustomer/NewCustomer';
 import Contact from '../../components/Contact/Contact';
 import Video from '../../components/Video/Video';
+import Instagram from '../../components/Instagram/Instagram';
 
 
 const content = [
@@ -65,6 +64,7 @@ function Home() {
       <NewCustomer />
       <About/>
       <Video />
+      <Instagram/>
       <Contact />
     </div>
   )
