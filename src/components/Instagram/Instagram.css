@@ -1,0 +1,13 @@
+.instagram-header {
+  text-align: center;
+}
+
+.instagram-feed {
+  display: flex;
+}
+
+.instagram-photo {
+  height: 264px;
+  width: 264px;
+  margin: 20px;
+}
