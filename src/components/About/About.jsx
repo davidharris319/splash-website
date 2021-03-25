@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => (
   <section className="about-container">
-    <div className="about-background">
+    <div className="about-background"></div>
       <div className="text-box">
         <h3>ABOUT SPLASH</h3>
         <p>
@@ -14,7 +14,6 @@ const About = () => (
         </p>
         <a href="/about">Learn More</a>
       </div>
-    </div>
   </section>
 );
 

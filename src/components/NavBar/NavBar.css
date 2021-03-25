@@ -1,13 +1,13 @@
 .NavbarItems {
-  background: rgb(255,255,255, 0.9);
+  background: rgb(255, 255, 255, 0.95);
   height: 121px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position:fixed;
-  width:100%;
-  left:0;
-  top:0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
   right: 0;
   z-index: 1000;
 }
@@ -22,8 +22,8 @@ img {
   width: 40%;
 }
 
-.navbar-logo {
-}
+/* .navbar-logo {
+} */
 
 .logo {
   max-width: 180px;
@@ -45,8 +45,6 @@ img {
   justify-content: end;
   margin-right: 2rem;
   margin-top: 15px;
-
-  
 }
 
 .nav-links {
@@ -54,7 +52,7 @@ img {
   padding: 0.5rem 1 rem;
   color: black;
   font-weight: 200;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 20px;
   letter-spacing: 0.05rem;
   position: relative;
@@ -70,16 +68,15 @@ li a::after {
   display: block;
   height: 2px;
   position: absolute;
-  background: #0413AC;
+  background: #0413ac;
   transition: 0.4s ease;
   width: 0;
 }
 
 li a:hover::after {
-  width: 100%; 
-  left: 0; 
+  width: 100%;
+  left: 0;
 }
-
 
 .menu-icon {
   display: none;
@@ -89,32 +86,32 @@ li a:hover::after {
   display: none;
 }
 
-
-
 @media screen and (max-width: 888px) {
   .NavbarItems {
-    position:fixed;
-    width:100%;
-    left:0;
-    top:0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
     right: 0;
     z-index: 1000;
-    background: rgb(255,255,255, 1);
+    background: rgb(255, 255, 255, 1);
   }
 
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: calc(100% );
+    width: calc(100%);
     height: 100vh;
     position: absolute;
     top: 80px;
     margin-top: 5vh;
     left: -100%;
     opacity: 1;
-    transition: all 0.5 ease;
+    transition: left 0.5s ease-in-out;
     margin-right: 0;
     text-align: center;
+    z-index: 1;
+    background: white;
   }
 
   .nav-menu.active {
@@ -122,9 +119,8 @@ li a:hover::after {
     top: 80px;
     left: 0;
     opacity: 1;
-    transition: left 0.5s ease;
+    transition: left 0.5s ease-in-out;
     z-index: 1;
-    
   }
 
   .nav-links {
@@ -132,12 +128,12 @@ li a:hover::after {
     display: table;
     width: 100%;
     text-align: center;
-    font-size: 40px
+    font-size: 40px;
   }
 
   li a:hover::after {
-    width: 0%; 
-    left: 0; 
+    width: 0%;
+    left: 0;
   }
 
   .navbar-logo {
@@ -167,6 +163,4 @@ li a:hover::after {
   .social {
     display: visible;
   }
-
 }
-

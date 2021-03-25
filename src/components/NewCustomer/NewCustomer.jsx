@@ -6,7 +6,9 @@ import worldMap from "../../images/product_pictures/world_map.jpg";
 const NewCustomer = () => {
   return (
     <section className="new-customer-container">
+    <div class="imgBox">
     <img src={worldMap} alt="World Map" />
+    </div>
       <div className="text-box">
         <h1>
          Thank you for your interest in Splash.
