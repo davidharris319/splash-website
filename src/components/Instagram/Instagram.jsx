@@ -1,7 +1,7 @@
 import React from 'react';
 import request from 'superagent';
 import './Instagram.css';
-var ACCESS_TOKEN = process.env.ACCESS_TOKEN;
+var ACCESS_TOKEN = process.env.REACT_APP_ACCESS_TOKEN;
 
 class Instagram extends React.Component {
   state = {
