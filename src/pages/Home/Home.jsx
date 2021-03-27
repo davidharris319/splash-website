@@ -30,13 +30,13 @@ const content = [
   {
     title: "FUN IN THE SUN",
     description: "",
-    button: "Visit Catalogue",
+    button: "Shop Now",
     image: garden,
   },
   {
     title: "Supplying the giftware industry.",
     description: "",
-    button: "Visit Catalogue",
+    button: "Shop Now",
     image: foodEnt,
   },
 ];
@@ -55,7 +55,7 @@ function Home() {
           <div className="inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>
-            <button><a href="http://splash.remotecatalog.com/login.php">{item.button}</a></button>
+            <a href="http://splash.remotecatalog.com/login.php"><button>{item.button}</button></a>
           </div>
         </div>
       ))}

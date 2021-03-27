@@ -20,7 +20,7 @@ button {
   transition-duration: 0.3s;
   color: white;
   border: 1px solid white !important;
-  background: none !important;
+  background: white !important;
   border-radius: 0px;
   text-transform: uppercase;
   box-sizing: border-box;
@@ -28,8 +28,13 @@ button {
   font-weight: 400;
   font-size: 13px;
   letter-spacing: 0.15rem;
-  cursor: cursor;
+  cursor: pointer;
   width: 200px;
+}
+
+.slider-content button {
+  color: black;
+  background: rgba(255, 255, 255, 1) !important;
 }
 
 button::before {
@@ -40,7 +45,7 @@ button::before {
   left: 0;
   right: 0;
   bottom: 0;
-  border: 1px solid white !important;
+  border: 1px solid white;
   background: rgba(255, 255, 255, 1) !important;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -54,11 +59,23 @@ button::before {
   transition-timing-function: ease-out;
 }
 
+.slider-content button::before {
+  background: lightgrey !important;
+  border: lightgrey !important;
+}
+
+.slider-content button:hover,
+button:focus,
+button:active {
+  color: rgb(100, 100, 100);
+  border: 1px solid lightgrey !important;
+}
+
 button:hover,
 button:focus,
 button:active {
   color: black;
-  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid white !important;
 }
 
 button:hover::before,
