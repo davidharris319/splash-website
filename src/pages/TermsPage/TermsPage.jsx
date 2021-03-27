@@ -10,7 +10,7 @@ function TermsPage() {
       <div className="TermsPage">
         <img className="terms-picture" src={coffeeSign} alt="Coffee Sign"/>
         <div className="text-container">
-          <h2>Terms of Trading - Retail Accounts</h2>
+          <h1>Terms of Trading - Retail Accounts</h1>
           <div className="terms-div">
             <h3>Pricing</h3>
             <p>All prices are quoted in wholesale dollars. Prices are subject to change without notice. </p>
@@ -20,7 +20,7 @@ function TermsPage() {
             <p>Orders taken are subject to approval and acceptance by the Head Office of <strong>Splash International Marketing Inc. </strong>as well the availability of merchandise. <strong>Splash </strong> does not accept responsibility for merchandise discontinued or out of production by factory. <strong>Orders placed must meet our minimum order requirement of $250.00 wholesale.</strong></p>
           </div>
           <div className="terms-div">
-            <h3>Orders</h3>
+            <h3>Payment Terms</h3>
             <p><strong>All orders are prepaid until credit is approved.</strong>  Your credit card will not be charged until your order is ready to be shipped or picked up. If items are out-of-stock or back-ordered, only those items currently being shipped will be billed to you. The remaining items will be billed as they are shipped (including applicable shipping charges). Please note that terms will remain prepay credit card until we receive, process, and approve a credit application. If credit terms are approved, then payment will be due Net 30 days from invoice date. Cash/Early payment discounts are not allowed. Interest will be changed at 18% per annum on overdue accounts. A charge of $20 will be levied on any cheque returned unpaid by your bank. Further orders will not be processed if invoices are overdue. <strong>Splash </strong>reserves the right to permanently discontinue the supply of goods to accounts overdue. </p>
           </div>
           <div className="terms-div">
