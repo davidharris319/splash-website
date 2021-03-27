@@ -2,11 +2,14 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import "./AboutPage.css";
 import whitePlantHolders from '../../images/product_pictures/white_plant_holders.jpg'
+import Nav2 from "../../components/Nav2/Nav2";
+
 
 function AboutPage() {
 
   return (
     <div>
+      <Nav2/>
       <div className="aboutPage">
         <img className="about-picture" src={whitePlantHolders} alt="White Plant Holders"/>
         <div className="text-container">

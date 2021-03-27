@@ -1,12 +1,14 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import "./TermsPage.css";
-import coffeeSign from '../../images/product_pictures/coffee-sign.jpg'
+import coffeeSign from '../../images/product_pictures/coffee-sign.jpg';
+import Nav2 from "../../components/Nav2/Nav2"
+
 
 function TermsPage() {
 
   return (
     <div>
+      <Nav2/>
       <div className="TermsPage">
         <img className="terms-picture" src={coffeeSign} alt="Coffee Sign"/>
         <div className="text-container">
@@ -43,7 +45,6 @@ function TermsPage() {
             <h3>Privacy Policy</h3>
             <p>All personal information including, but not limited to your credit card number, is safeguarded and accessed by a limited number of people who will use it for the purpose you intended and acknowledged. We do not give out personal information without written authorization. </p>
           </div>
-          <Link to='/' style={{ textDecoration: 'none'}}>Back to Home Page</Link>
         </div>
       </div>
 
