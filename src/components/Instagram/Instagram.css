@@ -32,8 +32,6 @@
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   opacity: 0;
   transition: opacity 0.25s;
 }
@@ -43,9 +41,16 @@
 }
 
 .instagram-title {
+  margin-top: 0;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.instagram-date {
+  margin-top: auto;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }

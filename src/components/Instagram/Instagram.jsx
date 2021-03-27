@@ -23,6 +23,12 @@ class Instagram extends React.Component {
       })
   }
 
+  updateDate = (date) => {
+    const options = { year: "numeric", month: "long", day: "numeric" }
+    return new Date(date).toLocaleDateString(undefined, options)
+  }
+  
+
   render() {
     return (
       <div className="instragram-container">
@@ -37,7 +43,7 @@ class Instagram extends React.Component {
                   <img className="instagram-photo" src={photo.media_url} alt={photo.caption !== null ? photo.caption : ''}/>
                   <div className="instagram-overlay">
                     <div className="instagram-title">{photo.caption !== null ? photo.caption : ''}</div>
-                    <div className="instagram-date">{photo.timestamp}</div>
+                    <div className="instagram-date">{this.updateDate(`${photo.timestamp}`)}</div>
                   </div>
                 </a>
               </div>
