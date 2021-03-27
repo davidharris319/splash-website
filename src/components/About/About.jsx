@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 
 const About = () => (
-  <section className="about-container">
+  <section id="about" className="about-container">
     <div className="about-background"></div>
       <div className="text-box">
         <h3>ABOUT SPLASH</h3>

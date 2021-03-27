@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
+import { Link } from 'react-scroll';
 import './NavBar.css';
 import logo from '../../images/splash_logo.png';
 
@@ -23,9 +24,9 @@ class Navbar extends Component {
             {MenuItems.map((item, index) =>{
               return (
                 <li key={index}>
-                  <a className={item.cName} href={item.url}>
+                  <Link className={item.cName} to={item.url} smooth={true} offset={-120} duration={1000}>
                   {item.title}
-                  </a>
+                  </Link>
                 </li>
               )
             })}

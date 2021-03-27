@@ -5,8 +5,8 @@ import worldMap from "../../images/product_pictures/world_map.jpg";
 
 const NewCustomer = () => {
   return (
-    <section className="new-customer-container">
-    <div class="imgBox">
+    <section id="newCustomer" className="new-customer-container">
+    <div className="imgBox">
     <img src={worldMap} alt="World Map" />
     </div>
       <div className="text-box">
