@@ -1,11 +1,11 @@
-.new-customer-container img{
+.new-customer-container img {
   width: 100%;
-  transition: 5s all ease-in-out; 
+  transition: 5s all ease-in-out;
 }
 
-.new-customer-container:hover img { 
-  transform: scale(1.05); 
-} 
+.new-customer-container:hover img {
+  transform: scale(1.05);
+}
 
 .new-customer-container {
   display: flex;
@@ -20,12 +20,12 @@
   border-radius: 20px;
   min-width: 400px;
   margin-left: 60px;
-  margin-top: 60px;   
+  margin-top: 60px;
 }
 @media (max-width: 800px) {
-.new-customer-container {
-  flex-wrap: wrap;
-  text-align: center;
+  .new-customer-container {
+    flex-wrap: wrap;
+    text-align: center;
   }
   .new-customer-container .imgBox {
     margin-right: 60px;
@@ -34,7 +34,7 @@
 
 .new-customer-container .text-box {
   margin-right: 60px;
-  margin-left: 60px
+  margin-left: 60px;
 }
 
 .new-customer-container button {

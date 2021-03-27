@@ -19,28 +19,33 @@
 .contact-container button {
   margin-top: 25px;
   background: #c1d8f0;
+  margin-bottom: 25px;
+}
+
+.contact-container h2 {
+  text-align: left;
 }
 
 .contact-container .contact-box {
   max-width: 600px;
-  }
+}
 
 .contact-container button {
   background: black !important;
   border: 1px solid black !important;
-  width: 225px
+  width: 225px;
 }
 
 @media (max-width: 800px) {
-.contact-container {
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
+  .contact-container {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
   }
   .splash-map {
-  margin-left: 40px;
-  margin-bottom: 20px;
-  align-items: center;
-  max-width: 100%;
-}
+    margin-left: 40px;
+    margin-bottom: 20px;
+    align-items: center;
+    max-width: 100%;
+  }
 }
