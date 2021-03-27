@@ -13,7 +13,6 @@ import TermsPage from "../TermsPage/TermsPage";
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/contact" component={Contact} />

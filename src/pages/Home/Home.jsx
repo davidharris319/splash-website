@@ -11,6 +11,7 @@ import frames from '../../images/product_pictures/frames.jpg'
 import garden from '../../images/product_pictures/garden.jpg'
 import foodEnt from '../../images/product_pictures/food-ent.jpg'
 
+import NavBar from "../../components/NavBar/NavBar";
 import About from '../../components/About/About';
 import Catalogue from '../../components/Catalogue/Catalogue';
 import NewCustomer from '../../components/NewCustomer/NewCustomer';
@@ -44,6 +45,7 @@ const content = [
 function Home() {
   return (
     <div>
+    <NavBar />
     <Slider className="slider-wrapper">
       {content.map((item, index) => (
         <div
