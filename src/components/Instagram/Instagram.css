@@ -4,10 +4,48 @@
 
 .instagram-feed {
   display: flex;
+  justify-content: center;
 }
 
 .instagram-photo {
+  /* display: block; */
   height: 264px;
   width: 264px;
-  margin: 20px;
+  margin: 10px;
+}
+
+.instagram-photo-container {
+  position: relative;
+  width: 300px;
+}
+
+.instagram-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 264px;
+  height: 264px;
+  margin: 10px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.instagram-overlay:hover {
+  opacity: 1;
+}
+
+.instagram-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
