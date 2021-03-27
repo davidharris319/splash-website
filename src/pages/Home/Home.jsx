@@ -13,7 +13,6 @@ import foodEnt from '../../images/product_pictures/food-ent.jpg'
 
 import About from '../../components/About/About';
 import Catalogue from '../../components/Catalogue/Catalogue';
-import Showroom from '../../components/Showroom/Showroom';
 import NewCustomer from '../../components/NewCustomer/NewCustomer';
 import Contact from '../../components/Contact/Contact';
 import Video from '../../components/Video/Video';
@@ -61,8 +60,9 @@ function Home() {
       ))}
     </Slider>
       <NewCustomer />
-      <About/>
+      <Catalogue/>
       <Video />
+      <About/>
       <Instagram/>
       <Contact />
     </div>

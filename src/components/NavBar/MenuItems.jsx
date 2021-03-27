@@ -1,27 +1,28 @@
 export const MenuItems = [
+
   {
-    title: 'About',
-    url: '#',
-    cName: 'nav-links'
-  },
-  {
-    title: 'Virtual Showroom',
-    url: '#',
+    title: 'New Customer',
+    url: 'newCustomer',
     cName: 'nav-links'
   },
   {
     title: 'Catalogue',
-    url: '#',
+    url: 'catalogue',
     cName: 'nav-links'
   },
   {
-    title: 'New Customer',
-    url: '#',
+    title: 'Virtual Showroom',
+    url: 'showroom',
+    cName: 'nav-links'
+  },
+  {
+    title: 'About',
+    url: 'about',
     cName: 'nav-links'
   },
   {
     title: 'Contact',
-    url: '#',
+    url: 'contact',
     cName: 'nav-links'
   },
 ]

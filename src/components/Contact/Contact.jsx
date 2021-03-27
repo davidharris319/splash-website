@@ -5,7 +5,7 @@ import splashMap from '../../images/product_pictures/map_screenshot.png'
 
 const Contact = () => {
   return (
-<section className="contact-container">
+<section id="contact" className="contact-container">
       <img className="splash-map" src={splashMap} alt="Google Maps Screenshot"/>
       <div className="contact-box">
           <h2>VISIT US</h2>
