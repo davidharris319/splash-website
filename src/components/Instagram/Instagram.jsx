@@ -31,12 +31,13 @@ class Instagram extends React.Component {
 
   render() {
     return (
-      <div className="instragram-container">
+      <div className="instagram-container">
         <header className="instagram-header">
           <h1>Follow us on Instagram</h1>
         </header>
+        <div className='scrolling-wrapper'>
         <div className="instagram-feed">
-          {this.state.photos.slice(0,5).map((photo, key) => {
+          {this.state.photos.slice(0,10).map((photo, key) => {
             return (
               <div className="instagram-photo-container" key={photo.id}>
                 <a href={photo.permalink} target="_blank" rel="noreferrer">
@@ -50,6 +51,7 @@ class Instagram extends React.Component {
             )
           })}
           {console.log(this.state.photos)}
+        </div>
         </div>
       </div>
     )

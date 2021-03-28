@@ -12,8 +12,8 @@ import garden from '../../images/product_pictures/garden.jpg'
 import foodEnt from '../../images/product_pictures/food-ent.jpg'
 
 import About from '../../components/About/About';
-import Catalogue from '../../components/Catalogue/Catalogue';
 import NewCustomer from '../../components/NewCustomer/NewCustomer';
+import Catalog from '../../components/Catalog/Catalog';
 import Contact from '../../components/Contact/Contact';
 import Video from '../../components/Video/Video';
 import Instagram from '../../components/Instagram/Instagram';
@@ -60,7 +60,7 @@ function Home() {
       ))}
     </Slider>
       <NewCustomer />
-      <Catalogue/>
+      <Catalog />
       <Video />
       <About/>
       <Instagram/>

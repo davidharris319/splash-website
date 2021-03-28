@@ -15,7 +15,7 @@
   height: 100%;
   content: "";
   position: absolute;
-  background: url("../../images/product_pictures/wedding_bank.jpg");
+  background: url("../../images/product_pictures/wall_art.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 
 .about-container .text-box {
   background: white;
-  flex: 0 0 600px;
+  flex: 0 0 650px;
   padding: 40px;
   z-index: 2;
 }
@@ -39,6 +39,15 @@
   color: black !important;
   position: relative;
   display: inline-block;
+  font-size: 20px;
+}
+
+.about-container .text-box h3 {
+  font-size: 2em;
+}
+
+.about-container .text-box p {
+  font-size: 20px;
 }
 
 .about-container a::after {

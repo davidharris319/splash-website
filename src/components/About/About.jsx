@@ -5,12 +5,9 @@ const About = () => (
   <section id="about" className="about-container">
     <div className="about-background"></div>
       <div className="text-box">
-        <h3>ABOUT SPLASH</h3>
+        <h3>Our Story</h3>
         <p>
-          Created back in 1985, with a vision to sell giftware, a mere five
-          employees, a small office and an undersized warehouse, Splash
-          International Marketing is now considered one of the top suppliers in
-          Canada.
+          Since 1985, Splash has stocked quality giftware for Canadian retailers. Now considered on of the top suppliers in Canada, we started our journey with five employees, a small office and an undersized warehouse.
         </p>
         <a href="/about">Learn More</a>
       </div>
