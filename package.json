@@ -26,11 +26,11 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": [
