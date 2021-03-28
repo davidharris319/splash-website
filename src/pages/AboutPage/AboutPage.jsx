@@ -14,7 +14,7 @@ function AboutPage() {
         <div className="text-container">
           <img className="about-picture" src={whitePlantHolders} alt="White Plant Holders"/>
           <h1>About Splash International Marketing</h1>
-          <p>Created back in 1985, with a vision to sell giftware, a mere five employees, a small office, undersized warehouse, and relocating several times over the years from building to building, Splash International Marketing has now landed as a top supplier situated in our very own 60,000 sq. ft. building in Markham, Ontario. With over 40 employees, 22 Sales Reps, and our very own Head Office/Showroom and attached warehouse off Highway #7 and Woodbine Avenue, Splash has proudly grown to be a well-established supplier in the giftware industry in Canada. 
+          <p>Created back in 1985, with a vision to sell giftware, a mere five employees, a small office, undersized warehouse, and relocating several times over the years from building to building, Splash International Marketing has now landed as a top supplier situated in our very own 60,000 sq. ft. building in Markham, Ontario. With over 40 employees, 22 Sales Reps, and our very own Head Office/Showroom and attached warehouse off Highway #7 and Woodbine Avenue, Splash has proudly grown to be a well-established supplier in the giftware industry in Canada
           <br/><br/>
           Over the last 36 years, we have continued to rise as one of the larger giftware suppliers in the industry and have won numerous awards including Supplier of the Year in 2016, and Supplier of the Year Honourable Mention in 2008, 2010, and 2014.
           <br/><br/>
