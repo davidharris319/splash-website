@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import './Nav2.css';
 import logo from '../../images/splash_logo.png';
 
-import iglogo from '../../images/instagram.svg';
-
 class Navbar extends Component {
   state = { clicked: false}
 

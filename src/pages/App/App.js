@@ -4,7 +4,6 @@ import { Route, Switch } from "react-router-dom";
 import Home from "../Home/Home";
 import NewCustomer from "../NewCustomer/NewCustomer";
 import Contact from "../../components/Contact/Contact";
-import NavBar from "../../components/NavBar/NavBar";
 import video from "../../components/Video/Video";
 import AboutPage from "../AboutPage/AboutPage";
 import Footer from "../../components/Footer/Footer";

@@ -18,7 +18,7 @@ img {
 }
 
 .social-icon svg {
-  width: 60px;  
+  width: 60px;
 }
 
 /* .navbar-logo {
@@ -152,8 +152,9 @@ li a:hover::after {
   }
 
   .social-icon {
-    margin: 20px;
-    display: inline-block;
+    display: flex;
+    margin: 25px;
+    display: inline-flex;
   }
 
   .fa-times {
