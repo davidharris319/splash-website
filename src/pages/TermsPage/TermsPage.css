@@ -10,11 +10,15 @@ h2 {
   text-align: center;
 }
 
+.text-container img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .terms-picture {
   border-style: none;
   margin-top: 150px;
-  max-height: 500px;
-  max-width: 500px;
 }
 
 .terms-div {

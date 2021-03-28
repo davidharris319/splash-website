@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.new-customer-container h1 {
+ text-align: left;
+}
+
 .new-customer-container .imgBox {
   display: inline-block;
   overflow: hidden !important;
@@ -36,6 +40,9 @@
   }
   .new-customer-container .text-box {
     width: 100% !important;
+  }
+  .new-customer-container h1 {
+  text-align: center;
   }
 }
 

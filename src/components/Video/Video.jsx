@@ -10,7 +10,7 @@ import wBank from "../../images/product_pictures/app_platter.jpg";
 
 const SPLIDE_OPTIONS = {
   width: '100%',
-  height: '50vh',
+  height: '60vh',
   pagination: false,
   video: {
     autoplay: true,
@@ -23,10 +23,9 @@ const SPLIDE_OPTIONS = {
 const video = () => {
 
   return (
-    <>
-
+    <section id="video" className="video-container">
     <header className="video-header">
-      <h1>Showroom Tour</h1>
+      <h1>Take a tour of our showroom</h1>
     </header>
     <Splide
         onMoved={() => console.log("Slide moved!")}
@@ -61,7 +60,7 @@ const video = () => {
           />
         </li>
       </Splide>
-      </>
+      </section>
   );
 };
 

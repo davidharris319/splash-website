@@ -7,12 +7,12 @@ export const MenuItems = [
   },
   {
     title: 'Catalogue',
-    url: 'catalogue',
+    url: 'catalog',
     cName: 'nav-links'
   },
   {
-    title: 'Virtual Showroom',
-    url: 'showroom',
+    title: 'Showroom',
+    url: 'video',
     cName: 'nav-links'
   },
   {

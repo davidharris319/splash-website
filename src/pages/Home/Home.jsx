@@ -22,19 +22,19 @@ import Instagram from '../../components/Instagram/Instagram';
 
 const content = [
   {
-    title: "Supplying the giftware industry.",
+    title: "Supplying the giftware industry",
     description: "",
     button: "Shop Now",
     image: frames,
   },
   {
-    title: "FUN IN THE SUN",
+    title: "Fun in the Sun",
     description: "",
     button: "Shop Now",
     image: garden,
   },
   {
-    title: "Supplying the giftware industry.",
+    title: "Modern giftware essentials",
     description: "",
     button: "Shop Now",
     image: foodEnt,

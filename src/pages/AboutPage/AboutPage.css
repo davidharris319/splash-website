@@ -10,11 +10,17 @@ h1 {
   text-align: center;
 }
 
+.aboutPage .text-container img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .about-picture {
   border-style: none;
   margin-top: 150px;
-  max-height: 500px;
-  max-width: 500px;
+  /* max-height: 500px;
+  max-width: 500px; */
 }
 
 .text-container {

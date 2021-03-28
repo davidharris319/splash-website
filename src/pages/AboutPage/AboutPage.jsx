@@ -11,8 +11,8 @@ function AboutPage() {
     <div>
       <Nav2/>
       <div className="aboutPage">
-        <img className="about-picture" src={whitePlantHolders} alt="White Plant Holders"/>
         <div className="text-container">
+          <img className="about-picture" src={whitePlantHolders} alt="White Plant Holders"/>
           <h1>About Splash International Marketing</h1>
           <p>Created back in 1985, with a vision to sell giftware, a mere five employees, a small office, undersized warehouse, and relocating several times over the years from building to building, Splash International Marketing has now landed as a top supplier situated in our very own 60,000 sq. ft. building in Markham, Ontario. With over 40 employees, 22 Sales Reps, and our very own Head Office/Showroom and attached warehouse off Highway #7 and Woodbine Avenue, Splash has proudly grown to be a well-established supplier in the giftware industry in Canada. 
           <br/><br/>
@@ -22,11 +22,11 @@ function AboutPage() {
           <br/><br/>
           Open Monday to Friday, we welcome retailers to schedule an appointment to visit our showroom and see our products and the vast categories we offer in person.
           <br/><br/>
-          You can also see us at The Toronto Gift Fair - http://www.cangift.org/Toronto-gift-fair/en/home or the Group Off Seven Open House Events - http://www.groupoffseven.com/
+          You can also see us at the <a href="http://www.cangift.org/Toronto-gift-fair/en/home"> Toronto Gift Fair</a> or the <a href="http://www.groupoffseven.com/"> Group Off Seven Open House Events</a>
           <br/><br/>
           Alternatively, we would be more than happy to connect you with one of our Sales Representatives located all across Canada, who are eager to visit your store with our complete product line.</p>
           
-          <Link to='/' style={{ textDecoration: 'none'}}>Back to Home Page</Link>
+          {/* <Link to='/' style={{ textDecoration: 'none'}}>Back to Home Page</Link> */}
         </div>
       </div>
 

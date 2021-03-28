@@ -7,6 +7,10 @@
   transform: scale(1.05);
 }
 
+.catalog-container h1 {
+ text-align: left;
+}
+
 .catalog-container {
   display: flex;
   justify-content: center;
@@ -47,6 +51,9 @@
   }
   .catalog-container .text-box {
   width: 100% !important;
+  }
+  .catalog-container h1 {
+  text-align: center;
   }
 }
 
