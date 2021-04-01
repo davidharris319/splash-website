@@ -22,7 +22,7 @@ function AboutPage() {
           <br/><br/>
           Open Monday to Friday, we welcome retailers to schedule an appointment to visit our showroom and see our products and the vast categories we offer in person.
           <br/><br/>
-          You can also see us at the <a href="http://www.cangift.org/Toronto-gift-fair/en/home"> Toronto Gift Fair</a> or the <a href="http://www.groupoffseven.com/"> Group Off Seven Open House Events</a>
+          You can also see us at the <a href="http://www.cangift.org/Toronto-gift-fair/en/home" target="_blank"> Toronto Gift Fair</a> or the <a href="http://www.groupoffseven.com/" target="_blank"> Group Off Seven Open House Events</a>.
           <br/><br/>
           Alternatively, we would be more than happy to connect you with one of our Sales Representatives located all across Canada, who are eager to visit your store with our complete product line.</p>
           

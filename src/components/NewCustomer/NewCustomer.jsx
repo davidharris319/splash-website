@@ -20,6 +20,7 @@ const NewCustomer = () => {
         <a
           href="http://splash.remotecatalog.com/getNewClient.php"
           style={{ textDecoration: "none" }}
+          target="_blank"
         >
           <button>Apply Now </button>
         </a>

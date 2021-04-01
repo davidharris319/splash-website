@@ -20,6 +20,7 @@ const Catalog = () => {
         <a
           href="http://splash.remotecatalog.com/login.php"
           style={{ textDecoration: "none" }}
+          target="_blank"
         >
           <button>View Catalogue</button>
         </a>
