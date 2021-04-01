@@ -44,7 +44,7 @@ const content = [
     image: foodEnt,
   },
   {
-    title: "Christmas Line Up is Here",
+    title: "Christmas Line up is Here",
     description: "",
     button: "Shop Now",
     image: xmas,
@@ -53,13 +53,13 @@ const content = [
     title: "Check out our latest home decor",
     description: "",
     button: "Shop Now",
-    image: home,
+    image: home2,
   },
   {
     title: "Check out our latest home decor",
     description: "",
     button: "Shop Now",
-    image: home2,
+    image: home,
   },
 ];
 
