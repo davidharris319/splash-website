@@ -14,7 +14,7 @@ const NewCustomer = () => {
          Thank you for your interest in Splash
         </h1>
         <p>
-         Our products may only be bought wholesale by approved retailers. Interested in becoming a retailer? Apply today to view our entire product line and to get access to wholesale pricing!
+        Serving the wholesale market only. Interested in become a retailer? Apply today to view our entire product line and gain access to our wholesale pricing!
          </p>
         <br />
         <a

@@ -10,6 +10,10 @@ import "./styles.css";
 import frames from '../../images/product_pictures/frames.jpg'
 import garden from '../../images/product_pictures/garden.jpg'
 import foodEnt from '../../images/product_pictures/food-ent.jpg'
+import xmas from '../../images/product_pictures/xmas.jpg'
+import home from '../../images/product_pictures/home_decor_1.jpg'
+import home2 from '../../images/product_pictures/home_decor_2.jpg'
+
 
 import Navbar from "../../components/NavBar/NavBar";
 import About from '../../components/About/About';
@@ -38,6 +42,24 @@ const content = [
     description: "",
     button: "Shop Now",
     image: foodEnt,
+  },
+  {
+    title: "Christmas Line Up is Here",
+    description: "",
+    button: "Shop Now",
+    image: xmas,
+  },
+  {
+    title: "Check out our latest home decor",
+    description: "",
+    button: "Shop Now",
+    image: home,
+  },
+  {
+    title: "Check out our latest home decor",
+    description: "",
+    button: "Shop Now",
+    image: home2,
   },
 ];
 
