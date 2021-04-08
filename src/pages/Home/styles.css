@@ -106,7 +106,7 @@ button:active::before {
 }
 
 .slider-wrapper {
-  margin-top: 121px;
+  margin-top: 160px;
   position: relative;
   height: 80vh;
   overflow: hidden;

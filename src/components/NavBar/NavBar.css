@@ -1,6 +1,6 @@
 .NavbarItems {
   background: rgb(255, 255, 255, 0.95);
-  height: 123px;
+  height: 165px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,8 +13,8 @@
 }
 
 img {
-  height: 200%;
-  width: 200%;
+  height: 250%;
+  width: 250%;
 }
 
 .social-icon svg {
@@ -25,8 +25,9 @@ img {
 } */
 
 .logo {
-  max-width: 180px;
+  max-width: 250px;
   padding: 30px 0px;
+  margin-left: 2vw;
 }
 
 .fa-react {
@@ -37,10 +38,10 @@ img {
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(6, auto);
-  grid-gap: 20px;
+  grid-gap: 25px;
   list-style: none;
   text-align: center;
-  width: 80vw;
+  width: 85vw;
   justify-content: end;
   margin-right: 2rem;
   margin-top: 15px;
@@ -52,7 +53,7 @@ img {
   color: black;
   font-weight: 200;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 0.05rem;
   position: relative;
 }
@@ -85,7 +86,7 @@ li a:hover::after {
   display: none;
 }
 
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 975px) {
   .NavbarItems {
     position: fixed;
     width: 100%;
