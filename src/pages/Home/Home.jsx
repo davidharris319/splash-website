@@ -10,6 +10,10 @@ import "./styles.css";
 import frames from '../../images/product_pictures/frames.jpg'
 import garden from '../../images/product_pictures/garden.jpg'
 import foodEnt from '../../images/product_pictures/food-ent.jpg'
+import xmas from '../../images/product_pictures/xmas.jpg'
+import home from '../../images/product_pictures/home_decor_1.jpg'
+import home2 from '../../images/product_pictures/home_decor_2.jpg'
+
 
 import Navbar from "../../components/NavBar/NavBar";
 import About from '../../components/About/About';
@@ -39,6 +43,24 @@ const content = [
     button: "Shop Now",
     image: foodEnt,
   },
+  {
+    title: "Christmas Line up is Here",
+    description: "",
+    button: "Shop Now",
+    image: xmas,
+  },
+  {
+    title: "Check out our latest home decor",
+    description: "",
+    button: "Shop Now",
+    image: home2,
+  },
+  {
+    title: "Check out our latest home decor",
+    description: "",
+    button: "Shop Now",
+    image: home,
+  },
 ];
 
 
@@ -56,16 +78,16 @@ function Home() {
           <div className="inner">
             <h1>{item.title}</h1>
             <p>{item.description}</p>
-            <a href="http://splash.remotecatalog.com/login.php"><button>{item.button}</button></a>
+            <a href="http://splash.remotecatalog.com/login.php" target="_blank"><button>{item.button}</button></a>
           </div>
         </div>
       ))}
     </Slider>
-      <NewCustomer />
       <Catalog />
-      <Video />
       <About/>
       <Instagram/>
+      <Video />
+      <NewCustomer />
       <Contact />
     </div>
   )
