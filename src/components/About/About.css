@@ -31,7 +31,7 @@
 
 @media (max-width: 800px) {
   .about-container .text-box {
-    flex: 0 0 300px;
+    flex: 0 0 350px;
   }
 }
 
