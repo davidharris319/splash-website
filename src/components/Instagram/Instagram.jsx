@@ -11,6 +11,7 @@ class Instagram extends React.Component {
   componentDidMount(){
     console.log(ACCESS_TOKEN);
     this.fetchPhotos();
+    this.updateAccessToken();
   }
 
   fetchPhotos() {
@@ -22,6 +23,15 @@ class Instagram extends React.Component {
         })
       })
   }
+
+  updateAccessToken() {
+    request
+    .get('https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=' + ACCESS_TOKEN)
+    .then((res) => {
+      console.log(res.body)
+    })
+  }
+
 
   updateDate = (date) => {
     const options = { year: "numeric", month: "long", day: "numeric" }

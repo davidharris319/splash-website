@@ -83,11 +83,11 @@ function Home() {
         </div>
       ))}
     </Slider>
+      <NewCustomer />
       <Catalog />
+      <Video />
       <About/>
       <Instagram/>
-      <Video />
-      <NewCustomer />
       <Contact />
     </div>
   )
