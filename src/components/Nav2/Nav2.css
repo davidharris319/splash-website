@@ -102,6 +102,10 @@ li a:hover::after {
     background: white;
   }
 
+  .logo {
+    margin-left: 0;
+  }
+
   .nav-menu.active {
     background: white;
     top: 10vh;
@@ -165,5 +169,11 @@ li a:hover::after {
 
   .social {
     display: visible;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .NavbarItems img {
+    padding: 10%;
   }
 }
