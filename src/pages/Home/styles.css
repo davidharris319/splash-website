@@ -106,7 +106,7 @@ button:active::before {
 }
 
 .slider-wrapper {
-  margin-top: 20vh;
+  margin-top: 165px;
   position: relative;
   height: 80vh;
   overflow: hidden;
@@ -257,12 +257,12 @@ button:active::before {
   }
 }
 
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .slider-wrapper,
   .slide {
     height: calc(80vh - 75px);
   }
-}
+} */
 
 @media (max-height: 600px) {
   .slider-content .inner h1 {
