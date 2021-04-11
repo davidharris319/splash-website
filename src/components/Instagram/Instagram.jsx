@@ -9,7 +9,6 @@ class Instagram extends React.Component {
   }
 
   componentDidMount(){
-    console.log(ACCESS_TOKEN);
     this.fetchPhotos();
     this.updateAccessToken();
   }
@@ -22,14 +21,16 @@ class Instagram extends React.Component {
           photos: res.body.data
         })
       })
+      .catch((err) => {console.log(err)});
   }
 
   updateAccessToken() {
     request
     .get('https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=' + ACCESS_TOKEN)
-    .then((res) => {
-      console.log(res.body)
-    })
+    // .then((res) => {
+    //   console.log(res.body)
+    // })
+    .catch((err) => {console.log(err)});
   }
 
 
@@ -40,31 +41,38 @@ class Instagram extends React.Component {
   
 
   render() {
-    return (
-      <div className="instagram-container">
-        <header className="instagram-header">
-          <h1>Follow us on Instagram</h1>
-        </header>
-        <div className='scrolling-wrapper'>
-        <div className="instagram-feed">
-          {this.state.photos.slice(0,10).map((photo, key) => {
-            return (
-              <div className="instagram-photo-container" key={photo.id}>
-                <a href={photo.permalink} target="_blank" rel="noreferrer">
-                  <img className="instagram-photo" src={photo.media_url} alt={photo.caption !== null ? photo.caption : ''}/>
-                  <div className="instagram-overlay">
-                    <div className="instagram-title">{photo.caption !== null ? photo.caption : ''}</div>
-                    <div className="instagram-date">{this.updateDate(`${photo.timestamp}`)}</div>
-                  </div>
-                </a>
-              </div>
-            )
-          })}
-          {console.log(this.state.photos)}
+
+    if(this.state.photos.length > 0) {
+      return (
+        <div className="instagram-container">
+          <header className="instagram-header">
+            <h1>Follow us on Instagram</h1>
+          </header>
+          <div className='scrolling-wrapper'>
+          <div className="instagram-feed">
+            {this.state.photos.slice(0,10).map((photo, key) => {
+              return (
+                <div className="instagram-photo-container" key={photo.id}>
+                  <a href={photo.permalink} target="_blank" rel="noreferrer">
+                    <img className="instagram-photo" src={photo.media_url} alt={photo.caption !== null ? photo.caption : ''}/>
+                    <div className="instagram-overlay">
+                      <div className="instagram-title">{photo.caption !== null ? photo.caption : ''}</div>
+                      <div className="instagram-date">{this.updateDate(`${photo.timestamp}`)}</div>
+                    </div>
+                  </a>
+                </div>
+              )
+            })}
+          </div>
+          </div>
         </div>
-        </div>
-      </div>
-    )
+      )
+    }
+    if(this.state.photos.length === 0) {
+      return (
+        <div></div>
+      )
+    }
   }
 }
 

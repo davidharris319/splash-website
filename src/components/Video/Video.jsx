@@ -6,8 +6,6 @@ import Video from "@splidejs/splide-extension-video";
 import "@splidejs/splide-extension-video/dist/css/splide-extension-video.min.css";
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
-import wBank from "../../images/product_pictures/app_platter.jpg";
-
 const SPLIDE_OPTIONS = {
   width: '100%',
   height: '60vh',

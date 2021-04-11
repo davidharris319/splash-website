@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import "./AboutPage.css";
 import whitePlantHolders from '../../images/product_pictures/white_plant_holders.jpg'
+import brownPlantHolders from '../../images/product_pictures/brown_plant_holders.jpg'
+import weddingMugs from '../../images/product_pictures/wedding_mugs.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -28,13 +29,13 @@ function AboutPage() {
 
           <Splide options= {primaryOptions}>
             <SplideSlide>
-              <img src={whitePlantHolders} alt="Image 1"/>
+              <img src={brownPlantHolders} alt="Brown Plant Holders"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={whitePlantHolders} alt="Image 2"/>
+              <img src={weddingMugs} alt="Wedding Mugs"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={whitePlantHolders} alt="Image 2"/>
+              <img src={whitePlantHolders} alt="White PlantHolders"/>
             </SplideSlide>
           </Splide>
 
@@ -48,11 +49,10 @@ function AboutPage() {
           <br/><br/>
           Open Monday to Friday, we welcome retailers to schedule an appointment to visit our showroom and see our products and the vast categories we offer in person.
           <br/><br/>
-          You can also see us at the <a href="http://www.cangift.org/Toronto-gift-fair/en/home" target="_blank"> Toronto Gift Fair</a> or the <a href="http://www.groupoffseven.com/" target="_blank"> Group Off Seven Open House Events</a>.
+          You can also see us at the <a href="http://www.cangift.org/Toronto-gift-fair/en/home" target="_blank" rel="noopener noreferrer"> Toronto Gift Fair</a> or the <a href="http://www.groupoffseven.com/" target="_blank" rel="noopener noreferrer"> Group Off Seven Open House Events</a>.
           <br/><br/>
           Alternatively, we would be more than happy to connect you with one of our Sales Representatives located all across Canada, who are eager to visit your store with our complete product line.</p>
           
-          {/* <Link to='/' style={{ textDecoration: 'none'}}>Back to Home Page</Link> */}
         </div>
       </div>
 
