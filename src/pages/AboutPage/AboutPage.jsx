@@ -7,6 +7,7 @@ import Nav2 from "../../components/Nav2/Nav2";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 const primaryOptions = {
+  type: 'loop',
   rewind : true,
   perPage: 1,
   perMove: 1,
