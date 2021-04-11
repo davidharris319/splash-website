@@ -1,6 +1,6 @@
 .NavbarItems {
   background: rgb(255, 255, 255, 0.95);
-  height: 165px;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@
   z-index: 1000;
 }
 
-img {
+.NavbarItems img {
   height: 250%;
   width: 250%;
 }
@@ -26,13 +26,7 @@ img {
 
 .logo {
   max-width: 250px;
-  padding: 30px 0px;
-  margin-left: 2vw;
-}
-
-.fa-react {
-  margin-left: 0.5rem;
-  font-size: 1.5rem;
+  margin-left: 1rem;
 }
 
 .nav-menu {
@@ -44,12 +38,11 @@ img {
   width: 85vw;
   justify-content: end;
   margin-right: 1rem;
-  margin-top: 15px;
 }
 
 .nav-links {
   text-decoration: none;
-  padding: 0.5rem 1 rem;
+  padding: 0;
   color: black;
   font-weight: 200;
   font-family: "Nunito Sans", sans-serif;
@@ -86,13 +79,8 @@ li a:hover::after {
   display: none;
 }
 
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 1000px) {
   .NavbarItems {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
     z-index: 1000;
     background: rgb(255, 255, 255, 1);
   }
@@ -103,8 +91,8 @@ li a:hover::after {
     width: calc(100%);
     height: 100vh;
     position: absolute;
-    top: 80px;
-    margin-top: 5vh;
+    top: 10vh;
+    margin-top: 10vh;
     left: -100%;
     opacity: 1;
     transition: left 0.5s ease-in-out;
@@ -116,7 +104,7 @@ li a:hover::after {
 
   .nav-menu.active {
     background: white;
-    top: 80px;
+    top: 10vh;
     left: 0;
     opacity: 1;
     transition: left 0.5s ease-in-out;
@@ -124,7 +112,7 @@ li a:hover::after {
   }
 
   .nav-links {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     display: table;
     width: 100%;
     text-align: center;
@@ -144,24 +132,36 @@ li a:hover::after {
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
-    padding-top: 10px;
+    /* top: 0; */
     right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    transform: translate(-100%, 10%);
+    font-size: 2.5rem;
     cursor: pointer;
   }
 
   .social-icon {
-    display: flex;
-    margin: 25px;
     display: inline-flex;
     justify-content: center;
+    align-items: center;
   }
 
-  .fa-times {
-    font-size: 2rem;
+  .social-icon .youtube {
+    margin-left: 20px;
+    margin-right: 20px;
   }
+
+  /* .social-icon .youtube svg {
+    width: 50px;
+  } */
+
+  /* 
+  .fa-times {
+    font-size: 2.5rem;
+  }
+
+  .fa-bars {
+    font-size: 2.5rem;
+  } */
 
   .social {
     display: visible;

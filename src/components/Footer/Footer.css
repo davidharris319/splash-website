@@ -42,6 +42,10 @@ footer h3 {
   margin-right: 10px;
 }
 
+.footer-col-1 .youtube svg {
+  margin-left: 10px;
+}
+
 .footer-col-1 a {
   color: #1c1b1b;
   text-decoration: underline;

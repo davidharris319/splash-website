@@ -3,23 +3,21 @@ import "./Catalog.css";
 import wBank from "../../images/product_pictures/wedding_bank.jpg";
 const Catalog = () => {
   return (
-    <section id="catalog" className="catalog-container">
+    <section id="about" className="catalog-container">
       <div className="imgBox mobile">
         <img src={wBank} alt="Wedding Bank" />
       </div>
       <div className="text-box">
-        <h1>
-        Already a Splash Retailer?
-        </h1>
+        <h1>Our Story</h1>
         <p>
-        Shop online at your convenience, any time. See our selection of hundreds of products by clicking the link below.
+        Since 1985, Splash has stocked quality giftware for Canadian retailers. Now considered one of the top suppliers in Canada, we started our journey with five employees, a small office and an undersized warehouse.
         </p>
         <br />
         <a
-          href="http://splash.remotecatalog.com/login.php"
+          href="/about"
           style={{ textDecoration: "none" }}
         >
-          <button>View Catalogue</button>
+          <button>Learn More</button>
         </a>
       </div>
       <div className="imgBox">

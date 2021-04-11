@@ -3,7 +3,8 @@
   justify-content: flex-start;
   align-items: center;
   margin: 0 auto;
-  width: 85%;
+  margin-right: 60px;
+  margin-left: 60px;
   background: white;
   margin-top: 50px;
   margin-bottom: 60px;
@@ -109,6 +110,8 @@ button:active::before {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
   }
   .splash-map {
     margin-left: 40px;
@@ -121,9 +124,9 @@ button:active::before {
     text-align: center;
   }
   .contact-container .contact-box {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
   }
   .contact-container p {
-  font-size: 16px;
-}
+    font-size: 16px;
+  }
 }
