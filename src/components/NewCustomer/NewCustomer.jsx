@@ -1,6 +1,9 @@
 import React from "react";
 import "./NewCustomer.css";
 import worldMap from "../../images/product_pictures/world_map.jpg";
+
+//change name to catalog
+
 const NewCustomer = () => {
   return (
     <section id="catalog" className="new-customer-container">

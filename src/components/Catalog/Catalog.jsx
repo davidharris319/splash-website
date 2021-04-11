@@ -1,6 +1,9 @@
 import React from "react";
 import "./Catalog.css";
 import wBank from "../../images/product_pictures/wedding_bank.jpg";
+
+// change name to about
+
 const Catalog = () => {
   return (
     <section id="about" className="catalog-container">

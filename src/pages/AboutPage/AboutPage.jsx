@@ -15,18 +15,15 @@ const primaryOptions = {
 };
 
 
-
-
-
 function AboutPage() {
 
   return (
     <div>
       <Nav2/>
       <div className="aboutPage">
-        <div className="text-container about-picture">
-
-          <Splide options= {primaryOptions}>
+        <div className="text-container">
+          <div className="about-picture">
+          <Splide options= {primaryOptions} >
             <SplideSlide>
               <img src={whitePlantHolders} alt="Image 1"/>
             </SplideSlide>
@@ -37,8 +34,8 @@ function AboutPage() {
               <img src={whitePlantHolders} alt="Image 2"/>
             </SplideSlide>
           </Splide>
-
-
+          </div>
+          <div className="text-container-body">
           <h1>About Splash International Marketing</h1>
           <p>Created back in 1985, with a vision to sell giftware, a mere five employees, a small office, undersized warehouse, and relocating several times over the years from building to building, Splash International Marketing has now landed as a top supplier situated in our very own 60,000 sq. ft. building in Markham, Ontario. With over 40 employees, 22 Sales Reps, and our very own Head Office/Showroom and attached warehouse off Highway #7 and Woodbine Avenue, Splash has proudly grown to be a well-established supplier in the giftware industry in Canada.
           <br/><br/>
@@ -53,6 +50,7 @@ function AboutPage() {
           Alternatively, we would be more than happy to connect you with one of our Sales Representatives located all across Canada, who are eager to visit your store with our complete product line.</p>
           
           {/* <Link to='/' style={{ textDecoration: 'none'}}>Back to Home Page</Link> */}
+        </div>
         </div>
       </div>
 

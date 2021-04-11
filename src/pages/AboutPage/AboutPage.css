@@ -33,3 +33,13 @@
 .text-container p {
   font-size: 16px;
 }
+
+@media (max-width: 800px) {
+  .aboutPage .text-container {
+    width: 100%;
+  }
+  .text-container-body {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+}
