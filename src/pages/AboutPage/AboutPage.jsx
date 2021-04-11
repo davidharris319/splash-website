@@ -4,6 +4,18 @@ import "./AboutPage.css";
 import whitePlantHolders from '../../images/product_pictures/white_plant_holders.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
 
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+
+const primaryOptions = {
+  rewind : true,
+  perPage: 1,
+  perMove: 1,
+  gap    : '1rem',
+};
+
+
+
+
 
 function AboutPage() {
 
@@ -11,8 +23,21 @@ function AboutPage() {
     <div>
       <Nav2/>
       <div className="aboutPage">
-        <div className="text-container">
-          <img className="about-picture" src={whitePlantHolders} alt="White Plant Holders"/>
+        <div className="text-container about-picture">
+
+          <Splide options= {primaryOptions}>
+            <SplideSlide>
+              <img src={whitePlantHolders} alt="Image 1"/>
+            </SplideSlide>
+            <SplideSlide>
+              <img src={whitePlantHolders} alt="Image 2"/>
+            </SplideSlide>
+            <SplideSlide>
+              <img src={whitePlantHolders} alt="Image 2"/>
+            </SplideSlide>
+          </Splide>
+
+
           <h1>About Splash International Marketing</h1>
           <p>Created back in 1985, with a vision to sell giftware, a mere five employees, a small office, undersized warehouse, and relocating several times over the years from building to building, Splash International Marketing has now landed as a top supplier situated in our very own 60,000 sq. ft. building in Markham, Ontario. With over 40 employees, 22 Sales Reps, and our very own Head Office/Showroom and attached warehouse off Highway #7 and Woodbine Avenue, Splash has proudly grown to be a well-established supplier in the giftware industry in Canada.
           <br/><br/>

@@ -3,23 +3,23 @@ import "./NewCustomer.css";
 import worldMap from "../../images/product_pictures/world_map.jpg";
 const NewCustomer = () => {
   return (
-    <section id="newCustomer" className="new-customer-container">
+    <section id="catalog" className="new-customer-container">
     <div className="imgBox">
     <img src={worldMap} alt="World Map" />
     </div>
       <div className="text-box">
         <h1>
-         Thank you for your interest in Splash
+        Already a Splash Retailer?
         </h1>
         <p>
-         Our products may only be bought wholesale by approved retailers. Interested in becoming a retailer? Apply today to view our entire product line and to get access to wholesale pricing!
+        Shop online at your convenience, any time. See our selection of hundreds of products by clicking the link below.
          </p>
         <br />
         <a
-          href="http://splash.remotecatalog.com/getNewClient.php"
+          href="http://splash.remotecatalog.com/login.php"
           style={{ textDecoration: "none" }}
         >
-          <button>Apply Now </button>
+          <button>View Catalogue</button>
         </a>
       </div>
     </section>
