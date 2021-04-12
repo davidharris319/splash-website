@@ -112,6 +112,7 @@ li a:hover::after {
     transition: left 0.5s ease-in-out;
     z-index: 1;
     overflow-y: scroll;
+    height: 100vh;
   }
 
   .nav-links {
@@ -174,5 +175,35 @@ li a:hover::after {
 @media screen and (max-width: 500px) {
   .NavbarItems img {
     padding: 10%;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .nav-menu.active {
+    height: 300%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .nav-menu.active {
+    height: 250%;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .nav-menu.active {
+    height: 200%;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .nav-menu.active {
+    height: 150%;
+  }
+}
+
+@media screen and (max-height: 300px) {
+  .nav-menu.active {
+    height: 100%;
   }
 }
