@@ -25,29 +25,18 @@ import Instagram from '../../components/Instagram/Instagram';
 
 
 const content = [
+  
+  {
+    title: "Check out our latest home decor",
+    description: "",
+    button: "Shop Now",
+    image: home,
+  },
   {
     title: "Supplying the giftware industry",
     description: "",
     button: "Shop Now",
     image: frames,
-  },
-  {
-    title: "Fun in the Sun",
-    description: "",
-    button: "Shop Now",
-    image: garden,
-  },
-  {
-    title: "Modern giftware essentials",
-    description: "",
-    button: "Shop Now",
-    image: foodEnt,
-  },
-  {
-    title: "Christmas Line up is Here",
-    description: "",
-    button: "Shop Now",
-    image: xmas,
   },
   {
     title: "Check out our latest home decor",
@@ -56,11 +45,24 @@ const content = [
     image: home2,
   },
   {
-    title: "Check out our latest home decor",
+    title: "Fun in the Sun",
     description: "",
     button: "Shop Now",
-    image: home,
+    image: garden,
   },
+  {
+    title: "Christmas Line up is Here",
+    description: "",
+    button: "Shop Now",
+    image: xmas,
+  },
+  {
+    title: "Modern giftware essentials",
+    description: "",
+    button: "Shop Now",
+    image: foodEnt,
+  }
+
 ];
 
 
@@ -68,7 +70,7 @@ function Home() {
   return (
     <div>
     <Navbar />
-    <Slider className="slider-wrapper">
+    <Slider autoplay="3000" className="slider-wrapper">
       {content.map((item, index) => (
         <div
           key={index}

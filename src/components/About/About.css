@@ -17,7 +17,7 @@
   position: absolute;
   background: url("../../images/product_pictures/wall_art.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -91,6 +91,13 @@
   transition-timing-function: ease-out;
 }
 
+.email a:focus,
+.email a:hover,
+.email a {
+  text-decoration: none;
+  color: black;
+}
+
 .contact-container button:hover,
 button:focus,
 button:active {
