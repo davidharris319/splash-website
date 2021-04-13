@@ -16,9 +16,9 @@ import home2 from '../../images/product_pictures/home_decor_2.jpg'
 
 
 import Navbar from "../../components/NavBar/NavBar";
-import About from '../../components/About/About';
 import NewCustomer from '../../components/NewCustomer/NewCustomer';
-import Catalog from '../../components/Catalog/Catalog';
+import Catalogue from '../../components/Catalogue/Catalogue';
+import About from '../../components/About/About';
 import Contact from '../../components/Contact/Contact';
 import Video from '../../components/Video/Video';
 import Instagram from '../../components/Instagram/Instagram';
@@ -85,10 +85,10 @@ function Home() {
         </div>
       ))}
     </Slider>
-      <NewCustomer />
-      <Catalog />
+      <Catalogue />
+      <About />
       <Video />
-      <About/>
+      <NewCustomer/>
       <Instagram/>
       <Contact />
     </div>

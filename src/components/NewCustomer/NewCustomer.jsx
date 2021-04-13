@@ -1,31 +1,20 @@
 import React from "react";
 import "./NewCustomer.css";
-import worldMap from "../../images/product_pictures/world_map.jpg";
 
-//change name to catalog
+//change name to newcustomer
 
-const NewCustomer = () => {
-  return (
-    <section id="catalog" className="new-customer-container">
-    <div className="imgBox">
-    <img src={worldMap} alt="World Map" />
-    </div>
+
+const NewCustomer = () => (
+  <section id="newCustomer" className="newCustomer-container">
+    <div className="newCustomer-background"></div>
       <div className="text-box">
-        <h1>
-        Already a Splash Retailer?
-        </h1>
+        <h3>Thank you for your interest in Splash</h3>
         <p>
-        Shop online at your convenience, any time. See our selection of hundreds of products by clicking the link below.
-         </p>
-        <br />
-        <a
-          href="http://splash.remotecatalog.com/login.php"
-          style={{ textDecoration: "none" }}
-        >
-          <button>View Catalogue</button>
-        </a>
+        Our products may only be bought wholesale by approved retailers. Interested in becoming a retailer? Apply today to view our entire product line and to get access to wholesale pricing!
+        </p>
+        <a href="http://splash.remotecatalog.com/getNewClient.php">Apply Now</a>
       </div>
-    </section>
-  );
-};
+  </section>
+);
+
 export default NewCustomer;
