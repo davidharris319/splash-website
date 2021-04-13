@@ -91,6 +91,13 @@
   transition-timing-function: ease-out;
 }
 
+.email a:focus,
+.email a:hover,
+.email a {
+  text-decoration: none;
+  color: black;
+}
+
 .contact-container button:hover,
 button:focus,
 button:active {
@@ -105,7 +112,7 @@ button:active::before {
   transform: scaleX(1);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .contact-container {
     flex-wrap: wrap;
     text-align: center;
@@ -128,5 +135,14 @@ button:active::before {
   }
   .contact-container p {
     font-size: 16px;
+  }
+  .contact-box {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .direction-button {
+    margin-left: auto;
   }
 }

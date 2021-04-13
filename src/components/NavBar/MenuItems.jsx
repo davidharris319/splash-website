@@ -3,7 +3,7 @@ export const MenuItems = [
 
   {
     title: 'Catalogue',
-    url: 'catalog',
+    url: 'catalogue',
     cName: 'nav-links'
   },
   {

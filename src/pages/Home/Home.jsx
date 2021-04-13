@@ -16,38 +16,27 @@ import home2 from '../../images/product_pictures/home_decor_2.jpg'
 
 
 import Navbar from "../../components/NavBar/NavBar";
-import About from '../../components/About/About';
 import NewCustomer from '../../components/NewCustomer/NewCustomer';
-import Catalog from '../../components/Catalog/Catalog';
+import Catalogue from '../../components/Catalogue/Catalogue';
+import About from '../../components/About/About';
 import Contact from '../../components/Contact/Contact';
 import Video from '../../components/Video/Video';
 import Instagram from '../../components/Instagram/Instagram';
 
 
 const content = [
+  
+  {
+    title: "Check out our latest home decor",
+    description: "",
+    button: "Shop Now",
+    image: home,
+  },
   {
     title: "Supplying the giftware industry",
     description: "",
     button: "Shop Now",
     image: frames,
-  },
-  {
-    title: "Fun in the Sun",
-    description: "",
-    button: "Shop Now",
-    image: garden,
-  },
-  {
-    title: "Modern giftware essentials",
-    description: "",
-    button: "Shop Now",
-    image: foodEnt,
-  },
-  {
-    title: "Christmas Line up is Here",
-    description: "",
-    button: "Shop Now",
-    image: xmas,
   },
   {
     title: "Check out our latest home decor",
@@ -56,11 +45,24 @@ const content = [
     image: home2,
   },
   {
-    title: "Check out our latest home decor",
+    title: "Fun in the Sun",
     description: "",
     button: "Shop Now",
-    image: home,
+    image: garden,
   },
+  {
+    title: "Christmas Line up is Here",
+    description: "",
+    button: "Shop Now",
+    image: xmas,
+  },
+  {
+    title: "Modern giftware essentials",
+    description: "",
+    button: "Shop Now",
+    image: foodEnt,
+  }
+
 ];
 
 
@@ -68,7 +70,7 @@ function Home() {
   return (
     <div>
     <Navbar />
-    <Slider className="slider-wrapper">
+    <Slider autoplay="3000" className="slider-wrapper">
       {content.map((item, index) => (
         <div
           key={index}
@@ -83,10 +85,10 @@ function Home() {
         </div>
       ))}
     </Slider>
-      <NewCustomer />
-      <Catalog />
+      <Catalogue />
+      <About />
       <Video />
-      <About/>
+      <NewCustomer/>
       <Instagram/>
       <Contact />
     </div>

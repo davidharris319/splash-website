@@ -13,6 +13,8 @@ const primaryOptions = {
   perPage: 1,
   perMove: 1,
   gap    : '1rem',
+  autoplay: true,
+  interval: 3000,
 };
 
 

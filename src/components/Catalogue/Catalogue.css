@@ -1,71 +1,62 @@
-.catalog-container img {
+.catalogue-container img {
   width: 100%;
   transition: 5s all ease-in-out;
 }
-.catalog-container:hover img {
+.catalogue-container:hover img {
   transform: scale(1.05);
 }
-.catalog-container h1 {
-  margin-top: 0px !important;
-  text-align: left;
-}
-.catalog-container {
+.catalogue-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
   margin-bottom: 60px;
   /* margin-right: 60px;
   margin-left: 60px; */
 }
-.catalog-container .imgBox {
+.catalogue-container h1 {
+  margin-top: 0px !important;
+  text-align: left;
+}
+.catalogue-container .imgBox {
   display: inline-block;
   overflow: hidden !important;
   position: relative;
   border-radius: 0px;
   min-width: 400px;
   max-height: 400px;
-  margin-right: 60px;
-  /* margin-left: 0; */
+  margin-left: 60px;
   width: 30%;
 }
-.catalog-container .imgBox.mobile {
-  display: none;
-}
-
 @media (max-width: 800px) {
-  .catalog-container {
+  .catalogue-container {
     flex-wrap: wrap;
     text-align: center;
     /* margin-right: 0px;
     margin-left: 0px; */
   }
-  .catalog-container .imgBox {
-    margin-left: 60px;
+  .catalogue-container .imgBox {
+    margin-right: 60px;
     width: 100%;
-    display: none;
   }
-  .catalog-container .imgBox.mobile {
-    display: inline-block;
-  }
-  .catalog-container .text-box {
+  .catalogue-container .text-box {
     margin-top: 50px;
     width: 100% !important;
   }
-  .catalog-container h1 {
+  .catalogue-container h1 {
     text-align: center;
     margin-top: 0px;
   }
 }
-
-.catalog-container .text-box {
+.catalogue-container .text-box {
   margin-right: 60px;
   margin-left: 60px;
   width: 50%;
 }
-.catalog-container .text-box p {
+.catalogue-container .text-box p {
   font-size: 20px;
 }
-.catalog-container button {
+.catalogue-container button {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -89,12 +80,12 @@
   cursor: pointer;
   width: 200px;
 }
-.catalog-container button {
+.catalogue-container button {
   background: black !important;
   border: 1px solid black !important;
   width: 250px;
 }
-.catalog-container button::before {
+.catalogue-container button::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -115,13 +106,13 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.catalog-container button:hover,
+.catalogue-container button:hover,
 button:focus,
 button:active {
   color: black;
   border: 1px solid black;
 }
-.catalog-container button:hover::before,
+.catalogue-container button:hover::before,
 button:focus::before,
 button:active::before {
   -webkit-transform: scaleX(1);
