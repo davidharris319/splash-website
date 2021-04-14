@@ -19,6 +19,7 @@ const Catalogue = () => {
         <a
           href="http://splash.remotecatalog.com/login.php"
           style={{ textDecoration: "none" }}
+          target="_blank" rel="noopener noreferrer"
         >
           <button>View Catalogue</button>
         </a>
