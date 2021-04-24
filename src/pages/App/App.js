@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import Home from "../Home/Home";
 import NewCustomer from "../NewCustomer/NewCustomer";
 import Contact from "../../components/Contact/Contact";
@@ -19,6 +19,7 @@ function App() {
         <Route exact path="/video" component={video} />
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/terms-of-trading" component={TermsPage} />
+        <Route render={() => <Redirect to={{pathname: "/"}} />} />
       </Switch>
       <Footer />
     </div>
