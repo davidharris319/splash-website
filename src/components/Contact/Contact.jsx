@@ -18,7 +18,7 @@ const Contact = () => {
 
               <p>Fax: (905) 947-4441</p>
 
-              <p className="email">Email: <a href="mailto:info@splash.com">info@splash.com</a></p>
+              <p className="email">Email: <a href="mailto:info@splash.ca">info@splash.ca</a></p>
 
             <li></li>
 

@@ -32,7 +32,7 @@ const Footer = () => (
             <li>395 Cochrane Drive</li>
             <li>Markham, ON  L3R 9R5</li>
             <li><a href="tel:905-947-4440">Ph. (905)-947-4440</a></li>
-            <li><a href="mailto:info@splash.com">info@splash.com</a></li>
+            <li><a href="mailto:info@splash.ca">info@splash.ca</a></li>
           </ul>
         </div>
       </div>

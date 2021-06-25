@@ -257,13 +257,6 @@ button:active::before {
   }
 }
 
-/* @media (max-width: 640px) {
-  .slider-wrapper,
-  .slide {
-    height: calc(80vh - 75px);
-  }
-} */
-
 @media (max-height: 600px) {
   .slider-content .inner h1 {
     font-size: 42px;
