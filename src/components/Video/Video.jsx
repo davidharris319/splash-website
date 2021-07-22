@@ -15,6 +15,7 @@ const SPLIDE_OPTIONS = {
     mute: true,
     disableOverlayUI: true,
     hideControls: true,
+    loop: true,
   }
 };
 
