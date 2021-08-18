@@ -114,7 +114,7 @@ button:active::before {
   z-index: 0;
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1650px) {
   .slider-wrapper {
     height: 90vh;
   }
