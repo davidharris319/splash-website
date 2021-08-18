@@ -55,7 +55,7 @@ class Instagram extends React.Component {
                     {photo.media_type !== "IMAGE" &&
                       <video className="instagram-photo" src={photo.media_url} alt={photo.caption !== null ? photo.caption : ''}/>
                     }
-                    {photo.media_type == "IMAGE" &&
+                    {photo.media_type === "IMAGE" &&
                       <img className="instagram-photo" src={photo.media_url} alt={photo.caption !== null ? photo.caption : ''}/>
                     }
                     <div className="instagram-overlay">

@@ -1,9 +1,6 @@
 import React from "react";
 import "./NewCustomer.css";
 
-//change name to newcustomer
-
-
 const NewCustomer = () => (
   <section id="newCustomer" className="newCustomer-container">
     <div className="newCustomer-background"></div>
