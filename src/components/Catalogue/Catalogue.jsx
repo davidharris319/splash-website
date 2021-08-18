@@ -1,12 +1,12 @@
 import React from "react";
 import "./Catalogue.css";
-import worldMap from "../../images/product_pictures/world_map.jpg";
+import bookshelf from "../../images/product_pictures/bookshelf.jpg";
 
 const Catalogue = () => {
   return (
     <section id="catalogue" className="catalogue-container">
     <div className="imgBox">
-    <img src={worldMap} alt="World Map" />
+    <img src={bookshelf} alt="This Is Us Frame" />
     </div>
       <div className="text-box">
         <h1>

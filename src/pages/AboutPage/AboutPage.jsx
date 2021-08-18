@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutPage.css";
-import whitePlantHolders from '../../images/product_pictures/white_plant_holders.jpg'
-import brownPlantHolders from '../../images/product_pictures/brown_plant_holders.jpg'
-import weddingMugs from '../../images/product_pictures/wedding_mugs.jpg'
+import ladyBugs from '../../images/product_pictures/Lady_Bugs.jpg'
+import brownPlantHolders from '../../images/product_pictures/twoShadePlantHolders.jpg'
+import helloSweetCheeks from '../../images/product_pictures/Hello_Sweet_Cheeks.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -31,10 +31,10 @@ function AboutPage() {
               <img src={brownPlantHolders} alt="Brown Plant Holders"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={weddingMugs} alt="Wedding Mugs"/>
+              <img src={ladyBugs} alt="Wedding Mugs"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={whitePlantHolders} alt="White PlantHolders"/>
+              <img src={helloSweetCheeks} alt="White PlantHolders"/>
             </SplideSlide>
           </Splide>
           </div>
