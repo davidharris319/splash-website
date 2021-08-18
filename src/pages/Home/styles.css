@@ -114,6 +114,12 @@ button:active::before {
   z-index: 0;
 }
 
+@media (min-width: 2000px) {
+  .slider-wrapper {
+    height: 90vh;
+  }
+}
+
 .slide {
   height: 90vh;
   background-size: cover !important;

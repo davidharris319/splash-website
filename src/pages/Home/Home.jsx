@@ -7,12 +7,12 @@ import "normalize.css/normalize.css";
 import "./slider-animations.css";
 import "./styles.css";
 
-import frames from '../../images/product_pictures/frames.jpg'
-import garden from '../../images/product_pictures/garden.jpg'
-import foodEnt from '../../images/product_pictures/food-ent.jpg'
-import xmas from '../../images/product_pictures/xmas.jpg'
-import home from '../../images/product_pictures/home_decor_1.jpg'
-import home2 from '../../images/product_pictures/home_decor_2.jpg'
+import collage1 from '../../images/product_pictures/collage_1_home_decor.jpg'
+import collage2 from '../../images/product_pictures/collage_2.jpg'
+import collage3 from '../../images/product_pictures/collage_3_garden.jpg'
+import collage4 from '../../images/product_pictures/collage_4.jpg'
+import collage5 from '../../images/product_pictures/collage_5.jpg'
+import collage6 from '../../images/product_pictures/collage_6.jpg'
 
 
 import Navbar from "../../components/NavBar/NavBar";
@@ -30,37 +30,37 @@ const content = [
     title: "Check out our latest home decor",
     description: "",
     button: "Shop Now",
-    image: home,
+    image: collage1,
   },
   {
     title: "Supplying the giftware industry",
     description: "",
     button: "Shop Now",
-    image: frames,
+    image: collage2,
   },
   {
-    title: "Check out our latest home decor",
+    title: "Garden & spring decor",
     description: "",
     button: "Shop Now",
-    image: home2,
+    image: collage3,
   },
   {
-    title: "Fun in the Sun",
+    title: "Bringing you the newest products all year round",
     description: "",
     button: "Shop Now",
-    image: garden,
+    image: collage4,
   },
   {
-    title: "Christmas Line up is Here",
+    title: "Don't miss our holiday collection",
     description: "",
     button: "Shop Now",
-    image: xmas,
+    image: collage5,
   },
   {
     title: "Modern giftware essentials",
     description: "",
     button: "Shop Now",
-    image: foodEnt,
+    image: collage6,
   }
 
 ];

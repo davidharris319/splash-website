@@ -2,6 +2,30 @@
   width: 100%;
   transition: 5s all ease-in-out;
 }
+@media (min-width: 2300px) {
+  .about-container img {
+    margin-top: -75px;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 2300px) {
+  .about-container img {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-container img {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-container img {
+    margin-top: 0px;
+  }
+}
+
 .about-container:hover img {
   transform: scale(1.05);
 }
