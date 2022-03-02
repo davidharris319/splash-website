@@ -33,7 +33,7 @@ const video = () => {
       >
         <li
           className="splide__slide"
-          data-splide-youtube="https://www.youtube.com/watch?v=veJSSJk51OY"
+          data-splide-youtube="https://www.youtube.com/watch?v=O6XaIqajEWI"
         >
           <img
             src="https://i.imgur.com/hqCBTK8.png"
