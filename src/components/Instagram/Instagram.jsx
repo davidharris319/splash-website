@@ -49,7 +49,6 @@ class Instagram extends React.Component {
           <div className='scrolling-wrapper'>
           <div className="instagram-feed">
             {this.state.photos.slice(0,10).map((photo, key) => {
-              console.log(photo)
               return (
                 <div className="instagram-photo-container" key={photo.id}>
                   <a href={photo.permalink} target="_blank" rel="noreferrer">
