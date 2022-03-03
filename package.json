@@ -17,6 +17,7 @@
     "mongoose": "^6.2.4",
     "morgan": "^1.10.0",
     "normalize.css": "^8.0.1",
+    "nth-check": "^2.0.1",
     "rc-tween-one": "^2.7.3",
     "react": "^17.0.1",
     "react-animated-slider": "^2.0.0",
