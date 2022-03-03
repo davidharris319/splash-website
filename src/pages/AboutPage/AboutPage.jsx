@@ -2,7 +2,7 @@ import React from "react";
 import "./AboutPage.css";
 import basketTop from '../../images/product_pictures/basket_top_art.jpg'
 import clock from '../../images/product_pictures/clock.jpg'
-import homeSweetHome from '../../images/product_pictures/home_sweet_home.jpg'
+import thisIsUs from '../../images/product_pictures/this_is_us_wall_art.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -28,13 +28,13 @@ function AboutPage() {
           <div className="about-picture">
           <Splide options= {primaryOptions} >
             <SplideSlide>
-              <img src={clock} alt="Brown Plant Holders"/>
+              <img src={clock} alt="Clock Wall Art"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={basketTop} alt="Wedding Mugs"/>
+              <img src={basketTop} alt="Wall Art with Basket Tops"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={homeSweetHome} alt="White PlantHolders"/>
+              <img src={thisIsUs} alt="Picture Frames and This is Us Wall Art"/>
             </SplideSlide>
           </Splide>
           </div>
