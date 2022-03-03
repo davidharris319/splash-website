@@ -52,8 +52,11 @@ class Instagram extends React.Component {
               return (
                 <div className="instagram-photo-container" key={photo.id}>
                   <a href={photo.permalink} target="_blank" rel="noreferrer">
-                    {photo.media_type !== "IMAGE" &&
+                    {photo.media_type === "VIDEO" &&
                       <video className="instagram-photo" src={photo.media_url} alt={photo.caption !== null ? photo.caption : ''}/>
+                    }
+                    {photo.media_type === "CAROUSEL_ALBUM" &&
+                      <img className="instagram-photo" src={photo.media_url} alt={photo.caption !== null ? photo.caption : ''}/>
                     }
                     {photo.media_type === "IMAGE" &&
                       <img className="instagram-photo" src={photo.media_url} alt={photo.caption !== null ? photo.caption : ''}/>

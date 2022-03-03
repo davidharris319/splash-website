@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import thisIsUs from "../../images/product_pictures/this_is_us_frame.jpg";
+import candleHolder from "../../images/product_pictures/candle_steps.jpg";
 
 // change name to about
 
@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id="about" className="about-container">
       <div className="imgBox mobile">
-        <img src={thisIsUs} alt="This Is Us Frame" />
+        <img src={candleHolder} alt="Electronic Candles" />
       </div>
       <div className="text-box">
         <h1>Our Story</h1>
@@ -24,7 +24,7 @@ const About = () => {
         </a>
       </div>
       <div className="imgBox">
-        <img src={thisIsUs} alt="This Is Us Frame" />
+        <img src={candleHolder} alt="This Is Us Frame" />
       </div>
     </section>
   );
