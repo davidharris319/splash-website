@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Home.css";
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import "normalize.css/normalize.css";
