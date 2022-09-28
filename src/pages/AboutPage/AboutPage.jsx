@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutPage.css";
-import basketTop from '../../images/product_pictures/basket_top_art.jpg'
-import clock from '../../images/product_pictures/clock.jpg'
-import thisIsUs from '../../images/product_pictures/this_is_us_wall_art.jpg'
+import kitchenSign from '../../images/product_pictures/kitchen_sign.jpg'
+import coffeeSign from '../../images/product_pictures/coffee_sign.jpg'
+import sweetCheeks from '../../images/product_pictures/sweet_cheeks_sign.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -28,19 +28,19 @@ function AboutPage() {
           <div className="about-picture">
           <Splide options= {primaryOptions} >
             <SplideSlide>
-              <img src={clock} alt="Clock Wall Art"/>
+              <img src={coffeeSign} alt="Clock Wall Art"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={basketTop} alt="Wall Art with Basket Tops"/>
+              <img src={kitchenSign} alt="Wall Art with Basket Tops"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={thisIsUs} alt="Picture Frames and This is Us Wall Art"/>
+              <img src={sweetCheeks} alt="Picture Frames and This is Us Wall Art"/>
             </SplideSlide>
           </Splide>
           </div>
           <div className="text-container-body">
           <h1>About Splash International Marketing</h1>
-          <p>Created back in 1985, with a vision to sell giftware, a mere five employees, a small office, undersized warehouse, and relocating several times over the years from building to building, Splash International Marketing has now landed as a top supplier situated in our very own 90,000 sq. ft. building in Markham, Ontario. With over 40 employees, 22 Sales Reps, and our very own Head Office/Showroom and attached warehouse off Highway #7 and Woodbine Avenue, Splash has proudly grown to be a well-established supplier in the giftware industry in Canada.
+          <p>Created back in 1985, with a vision to sell giftware, a mere five employees, a small office, undersized warehouse, and relocating several times over the years from building to building, Splash International Marketing has now landed as a top supplier situated in our very own 80,000 sq. ft. building in Markham, Ontario. With over 40 employees, 22 Sales Reps, and our very own Head Office/Showroom and attached warehouse off Highway #7 and Woodbine Avenue, Splash has proudly grown to be a well-established supplier in the giftware industry in Canada.
           <br/><br/>
           Over the last 37 years, we have continued to rise as one of the larger giftware suppliers in the industry and have won numerous awards including Supplier of the Year in 2016, and Supplier of the Year Honourable Mention in 2008, 2010, and 2014.
           <br/><br/>

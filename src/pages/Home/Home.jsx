@@ -1,18 +1,19 @@
 import React from 'react';
 import "./Home.css";
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import "normalize.css/normalize.css";
 import "./slider-animations.css";
 import "./styles.css";
 
-import collage1 from '../../images/product_pictures/collage_1_2022.jpg'
-import collage2 from '../../images/product_pictures/collage_2_2022.jpg'
-import collage3 from '../../images/product_pictures/collage_3_2022.jpg'
-import collage4 from '../../images/product_pictures/collage_4_2022.jpg'
-import collage5 from '../../images/product_pictures/collage_5_2022.jpg'
-import collage6 from '../../images/product_pictures/collage_6_2022.jpg'
+
+import collage1 from '../../images/product_pictures/giftware2.jpg'
+import collage2 from '../../images/product_pictures/occasions2.jpg'
+import collage3 from '../../images/product_pictures/holiday2.jpg'
+import collage4 from '../../images/product_pictures/homedecor2.jpg'
+import collage5 from '../../images/product_pictures/houseware2.jpg'
+import collage6 from '../../images/product_pictures/spring2.jpg'
 
 
 import Navbar from "../../components/NavBar/NavBar";
@@ -27,37 +28,37 @@ import Instagram from '../../components/Instagram/Instagram';
 const content = [
   
   {
-    title: "Supplying the giftware industry",
+    title: "Modern Giftware Essentials",
     description: "",
     button: "Shop Now",
     image: collage1,
   },
   {
-    title: "Bringing you the newest products all year round",
+    title: "Gifts for all Occasions",
     description: "",
     button: "Shop Now",
     image: collage2,
   },
   {
-    title: "Check out our latest home decor",
+    title: "Our Holiday Collection",
     description: "",
     button: "Shop Now",
     image: collage3,
   },
   {
-    title: "Modern giftware essentials",
-    description: "",
+    title: "Home Decor",
+    description: "Check out our latest",
     button: "Shop Now",
     image: collage4,
   },
   {
-    title: "Garden & spring decor",
+    title: "Ideal Houseware",
     description: "",
     button: "Shop Now",
     image: collage5,
   },
   {
-    title: "Don't miss our holiday collection",
+    title: "Spring & Garden",
     description: "",
     button: "Shop Now",
     image: collage6,
