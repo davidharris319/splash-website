@@ -33,6 +33,15 @@ const video = () => {
       >
         <li
           className="splide__slide"
+          data-splide-youtube="https://www.youtube.com/watch?v=PAHV56AXfW0"
+        >
+          <img
+            src="https://i.imgur.com/hqCBTK8.png"
+            alt="Example 2"
+          />
+        </li>
+        <li
+          className="splide__slide"
           data-splide-youtube="https://www.youtube.com/watch?v=O6XaIqajEWI"
         >
           <img
@@ -52,15 +61,6 @@ const video = () => {
         <li
           className="splide__slide"
           data-splide-youtube="https://www.youtube.com/watch?v=MVTN4r41Hn0"
-        >
-          <img
-            src="https://i.imgur.com/hqCBTK8.png"
-            alt="Example 1"
-          />
-        </li>
-        <li
-          className="splide__slide"
-          data-splide-youtube="https://www.youtube.com/watch?v=BCWJyZQED9E"
         >
           <img
             src="https://i.imgur.com/hqCBTK8.png"
