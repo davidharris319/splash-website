@@ -28,6 +28,12 @@ import Instagram from '../../components/Instagram/Instagram';
 const content = [
   
   {
+    title: "Home Decor",
+    description: "Check out our latest",
+    button: "Shop Now",
+    image: collage4,
+  },
+  {
     title: "Modern Giftware Essentials",
     description: "",
     button: "Shop Now",
@@ -44,12 +50,6 @@ const content = [
     description: "",
     button: "Shop Now",
     image: collage3,
-  },
-  {
-    title: "Home Decor",
-    description: "Check out our latest",
-    button: "Shop Now",
-    image: collage4,
   },
   {
     title: "Ideal Houseware",
