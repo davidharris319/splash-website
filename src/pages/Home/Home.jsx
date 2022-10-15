@@ -40,16 +40,16 @@ const content = [
     image: collage1,
   },
   {
-    title: "Gifts for all Occasions",
-    description: "",
-    button: "Shop Now",
-    image: collage2,
-  },
-  {
     title: "Our Holiday Collection",
     description: "",
     button: "Shop Now",
     image: collage3,
+  },
+  {
+    title: "Spring & Garden",
+    description: "",
+    button: "Shop Now",
+    image: collage6,
   },
   {
     title: "Ideal Houseware",
@@ -58,10 +58,10 @@ const content = [
     image: collage5,
   },
   {
-    title: "Spring & Garden",
+    title: "Gifts for all Occasions",
     description: "",
     button: "Shop Now",
-    image: collage6,
+    image: collage2,
   }
 
 ];
