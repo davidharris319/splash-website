@@ -4,17 +4,35 @@
 }
 @media (min-width: 2300px) {
   .about-container img {
-    margin-top: -75px;
+    margin-top: -150px;
   }
 }
 
 @media (min-width: 1800px) and (max-width: 2300px) {
   .about-container img {
-    margin-top: -50px;
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1800px) {
+  .about-container img {
+    margin-top: -60px;
+  }
+}
+
+@media (min-width: 1350px) and (max-width: 1500px) {
+  .about-container img {
+    margin-top: -15px;
   }
 }
 
 @media (max-width: 800px) {
+  .about-container img {
+    margin-top: -170px;
+  }
+}
+
+@media (max-width: 700px) {
   .about-container img {
     margin-top: -50px;
   }

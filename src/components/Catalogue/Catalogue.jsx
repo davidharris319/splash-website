@@ -1,12 +1,12 @@
 import React from "react";
 import "./Catalogue.css";
-import lakehouseSign from "../../images/product_pictures/lakehouse_sign.jpg";
+import seabirds from "../../images/product_pictures/sea-birds-wooden-2.jpg";
 
 const Catalogue = () => {
   return (
     <section id="catalogue" className="catalogue-container">
     <div className="imgBox">
-    <img src={lakehouseSign} alt="Hook Storage Basket" />
+    <img src={seabirds} alt="Hook Storage Basket" />
     </div>
       <div className="text-box">
         <h1>
