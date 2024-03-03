@@ -10,10 +10,6 @@ h1 {
   margin-left: 0 !important;
 }
 
-.slider-content h1 {
-  text-align: left;
-}
-
 .slider-content button {
   display: inline-block;
   vertical-align: middle;
@@ -32,8 +28,8 @@ h1 {
   text-transform: uppercase;
   box-sizing: border-box;
   padding: 20px 40px;
-  font-weight: 600;
-  font-size: 25px;
+  font-weight: bold;
+  font-size: 40px;
   letter-spacing: 0.15rem;
   cursor: pointer;
   width: 350px;
@@ -190,17 +186,17 @@ button:active::before {
   right: -10px;
 } */
 
-.slider-content {
+.slider-desktop {
   text-align: left;
 }
 
-.slider-content .inner {
-  padding: 0 70px;
+.slider-desktop .inner {
+  padding: 0 60px;
   box-sizing: border-box;
   position: absolute;
   width: 100%;
   top: 50%;
-  left: 50%;
+  left: 100%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -223,12 +219,14 @@ button:active::before {
 }
 
 .slider-content .inner p {
-  color: black;
+  color: white;
   font-size: 50px;
   line-height: 1.5;
-  margin: 20px 0 30px 0;
+  margin: 20px 0 130px 0;
   max-width: 30%;
-  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px grey;
 }
 
 .slider-content section {
@@ -283,31 +281,40 @@ button:active::before {
     font-size: 60px;
   }
   .slider-content .inner p {
-    font-size: 40px;
+    font-size: 50px;
   }
   .slider-content button {
     border-radius: 35px;
     padding: 20px 40px;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 30px;
     letter-spacing: 0.15rem;
     cursor: pointer;
     width: 300px;
   }
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1575px) {
   .slider-content .inner h1 {
     font-size: 50px;
   }
   .slider-content .inner p {
-    font-size: 32px;
+    font-size: 40px;
+  }
+}
+@media (max-width: 1350px) {
+  .slider-content .inner h1 {
+    font-size: 50px;
+  }
+  .slider-content .inner p {
+    font-size: 40px;
+    margin: 0px 0 90px 0;
   }
   .slider-content button {
     border-radius: 35px;
     padding: 15px 40px;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 25px;
     letter-spacing: 0.15rem;
     cursor: pointer;
     width: 250px;
@@ -339,24 +346,103 @@ button:active::before {
     max-width: 40%;
   }
   .slider-content .inner p {
-    max-width: 60%;
+    max-width: 40%;
   }
   .slider-content button {
     border-radius: 35px;
-    padding: 15px 40px;
-    font-weight: 600;
-    font-size: 10px;
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: 20px;
     letter-spacing: 0.15rem;
     cursor: pointer;
-    width: 175px;
+    width: 200px;
   }
 }
 
-@media (max-width: 850px) {
+@media (min-width: 801px) {
+  .slider-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
   .slider-content .inner h1 {
     max-width: 90%;
   }
   .slider-content .inner p {
-    max-width: 90%;
+    max-width: 100%;
+    margin: 0px 0px 10px 0px;
+    padding: 0% 5%;
   }
+  .slider-desktop {
+    display: none;
+  }
+
+  .slider-mobile {
+    margin-top: 0px;
+    height: 100vh;
+  }
+
+  .slider-mobile .inner {
+  padding: 0 0px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 85%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .slider-content .inner {
+    top: 80%;
+  }
+
+  .slider-content button {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .slider-content .inner {
+    top: 80%;
+  }
+
+  .slider-content button {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .slider-content .inner {
+    top: 77%;
+  }
+
+  .slider-content button {
+    margin-top: 30px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .slider-content .inner {
+    top: 73%;
+  }
+  .slider-content .inner p {
+    font-size: 30px;
+  }
+  .slider-content button {
+    border-radius: 35px;
+    padding: 15px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.15rem;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 20px;
+  }
+
 }

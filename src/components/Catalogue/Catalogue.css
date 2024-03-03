@@ -4,6 +4,12 @@
   transition: 5s all ease-in-out;
 }
 
+@media (min-width: 1500px) and (max-width: 2000px) {
+  .catalogue-container img {
+    margin-top: -100px;
+  }
+}
+
 @media (min-width: 2000px) and (max-width: 2200px) {
   .catalogue-container img {
     margin-top: -100px;
@@ -12,7 +18,7 @@
 
 @media (min-width: 2200px) {
   .catalogue-container img {
-    margin-top: -75px;
+    margin-top: -100px;
   }
 }
 
@@ -22,7 +28,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .catalogue-container img {
     margin-top: 0px;
   }

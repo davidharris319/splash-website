@@ -8,13 +8,18 @@ import "./slider-animations.css";
 import "./styles.css";
 
 
-import collage1 from '../../images/product_pictures/giftware2.jpg'
-import collage2 from '../../images/product_pictures/occasions2.jpg'
-import collage3 from '../../images/product_pictures/holiday2.jpg'
-import collage4 from '../../images/product_pictures/homedecor2.jpg'
-import collage5 from '../../images/product_pictures/houseware2.jpg'
-import collage6 from '../../images/product_pictures/spring2.jpg'
-
+import homeDecor from '../../images/product_pictures/desktop-home-decor.jpg'
+import giftware from '../../images/product_pictures/desktop-giftware.jpg'
+import holiday from '../../images/product_pictures/desktop-holiday.jpg'
+import garden from '../../images/product_pictures/desktop-garden.jpg'
+import houseware from '../../images/product_pictures/desktop-houseware.jpg'
+import giftForAll from '../../images/product_pictures/desktop-gift-for-all.jpg'
+import homeDecorMobile from '../../images/product_pictures/mobile_home-decor.jpg'
+import giftwareMobile from '../../images/product_pictures/mobile_giftware.jpg'
+import holidayMobile from '../../images/product_pictures/mobile_holiday.jpg'
+import gardenMobile from '../../images/product_pictures/mobile_garden.jpg'
+import housewareMobile from '../../images/product_pictures/mobile_houseware.jpg'
+import giftForAllMobile from '../../images/product_pictures/mobile_gift-for-all.jpg'
 
 import Navbar from "../../components/NavBar/NavBar";
 import NewCustomer from '../../components/NewCustomer/NewCustomer';
@@ -25,54 +30,111 @@ import Video from '../../components/Video/Video';
 import Instagram from '../../components/Instagram/Instagram';
 
 
-const content = [
+const contentDesktop = [
   
   {
-    title: "Home Decor",
-    description: "Check out our latest",
+    title: "",
+    description: "Discover our Newest Home Decor Arrivals",
     button: "Shop Now",
-    image: collage4,
+    image: homeDecor,
   },
   {
-    title: "Modern Giftware Essentials",
-    description: "",
+    title: "",
+    description: "Explore Modern Giftware Essentials",
     button: "Shop Now",
-    image: collage1,
+    image: giftware,
   },
   {
-    title: "Our Holiday Collection",
-    description: "",
+    title: "",
+    description: "Unwrap Our Latest Holiday Collection",
     button: "Shop Now",
-    image: collage3,
+    image: holiday,
   },
   {
-    title: "Spring & Garden",
-    description: "",
+    title: "",
+    description: "Shop Our Vibrant Spring & Garden Collection",
     button: "Shop Now",
-    image: collage6,
+    image: garden,
   },
   {
-    title: "Ideal Houseware",
-    description: "",
+    title: "",
+    description: "All The Perfect Houseware Essentials",
     button: "Shop Now",
-    image: collage5,
+    image: houseware,
   },
   {
-    title: "Gifts for all Occasions",
-    description: "",
+    title: "",
+    description: "Gifts For Every Occasion & Milestone",
     button: "Shop Now",
-    image: collage2,
+    image: giftForAll,
   }
 
 ];
 
+const contentMobile = [
+  
+  {
+    title: "",
+    description: "Discover our Newest Home Decor Arrivals",
+    button: "Shop Now",
+    image: homeDecorMobile,
+  },
+  {
+    title: "",
+    description: "Explore Modern Giftware Essentials",
+    button: "Shop Now",
+    image: giftwareMobile,
+  },
+  {
+    title: "",
+    description: "Unwrap Our Latest Holiday Collection",
+    button: "Shop Now",
+    image: holidayMobile,
+  },
+  {
+    title: "",
+    description: "Shop Our Vibrant Spring & Garden Collection",
+    button: "Shop Now",
+    image: gardenMobile,
+  },
+  {
+    title: "",
+    description: "All The Perfect Houseware Essentials",
+    button: "Shop Now",
+    image: housewareMobile,
+  },
+  {
+    title: "",
+    description: "Gifts For Every Occasion & Milestone",
+    button: "Shop Now",
+    image: giftForAllMobile,
+  }
+
+];
 
 function Home() {
   return (
     <div>
     <Navbar />
-    <Slider autoplay="3000" className="slider-wrapper">
-      {content.map((item, index) => (
+    <Slider autoplay="3000" className="slider-wrapper slider-desktop">
+      {contentDesktop.map((item, index) => (
+        <div
+          key={index}
+          className="slider-content"
+          style={{ background: `url('${item.image}') no-repeat center center`}}
+        >
+          <div className="inner">
+            <div className="title-holder">
+              <h1>{item.title}</h1>
+            </div>
+            <p>{item.description}</p>
+            <a href="http://splash.remotecatalog.com/login.php" target="_blank" rel="noopener noreferrer"><button>{item.button}</button></a>
+          </div>
+        </div>
+      ))}
+    </Slider>
+    <Slider autoplay="3000" className="slider-wrapper slider-mobile">
+      {contentMobile.map((item, index) => (
         <div
           key={index}
           className="slider-content"
