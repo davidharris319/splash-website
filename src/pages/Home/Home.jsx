@@ -40,12 +40,6 @@ const contentDesktop = [
   },
   {
     title: "",
-    description: "Explore Modern Giftware Essentials",
-    button: "Shop Now",
-    image: giftware,
-  },
-  {
-    title: "",
     description: "Unwrap Our Latest Holiday Collection",
     button: "Shop Now",
     image: holiday,
@@ -55,6 +49,12 @@ const contentDesktop = [
     description: "Shop Our Vibrant Spring & Garden Collection",
     button: "Shop Now",
     image: garden,
+  },
+  {
+    title: "",
+    description: "Explore Modern Giftware Essentials",
+    button: "Shop Now",
+    image: giftware,
   },
   {
     title: "",
@@ -81,12 +81,6 @@ const contentMobile = [
   },
   {
     title: "",
-    description: "Explore Modern Giftware Essentials",
-    button: "Shop Now",
-    image: giftwareMobile,
-  },
-  {
-    title: "",
     description: "Unwrap Our Latest Holiday Collection",
     button: "Shop Now",
     image: holidayMobile,
@@ -96,6 +90,12 @@ const contentMobile = [
     description: "Shop Our Vibrant Spring & Garden Collection",
     button: "Shop Now",
     image: gardenMobile,
+  },
+  {
+    title: "",
+    description: "Explore Modern Giftware Essentials",
+    button: "Shop Now",
+    image: giftwareMobile,
   },
   {
     title: "",
