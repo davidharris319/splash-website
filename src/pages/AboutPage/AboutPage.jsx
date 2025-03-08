@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutPage.css";
-import succulents from '../../images/product_pictures/few14s.jpg'
-import planterPot from '../../images/product_pictures/POP103_4.jpg'
-import lanternHome from '../../images/product_pictures/vis408andsm.jpg'
+import bugPins from '../../images/product_pictures/bug_pins.jpg'
+import spouseMugs from '../../images/product_pictures/spouse_mugs.jpg'
+import socking from '../../images/product_pictures/socking.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -28,13 +28,13 @@ function AboutPage() {
           <div className="about-picture">
           <Splide options= {primaryOptions} >
             <SplideSlide>
-              <img src={planterPot} alt="Planter Pot"/>
+              <img src={spouseMugs} alt="Planter Pot"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={succulents} alt="Succulents and Candle"/>
+              <img src={bugPins} alt="Succulents and Candle"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={lanternHome} alt="Ceramic Lantern Houses"/>
+              <img src={socking} alt="Ceramic Lantern Houses"/>
             </SplideSlide>
           </Splide>
           </div>
@@ -42,7 +42,7 @@ function AboutPage() {
           <h1>About Splash International Marketing</h1>
           <p>Created back in 1985, with a vision to sell giftware, a mere five employees, a small office, undersized warehouse, and relocating several times over the years from building to building, Splash International Marketing has now landed as a top supplier situated in our very own 80,000 sq. ft. building in Markham, Ontario. With over 40 employees, 22 Sales Reps, and our very own Head Office/Showroom and attached warehouse off Highway #7 and Woodbine Avenue, Splash has proudly grown to be a well-established supplier in the giftware industry in Canada.
           <br/><br/>
-          Over the last 39 years, we have continued to rise as one of the larger giftware suppliers in the industry and have won numerous awards including Supplier of the Year in 2016, and Supplier of the Year Honourable Mention in 2008, 2010, and 2014.
+          Over the last 40 years, we have continued to rise as one of the larger giftware suppliers in the industry and have won numerous awards including Supplier of the Year in 2016, and Supplier of the Year Honourable Mention in 2008, 2010, and 2014.
           <br/><br/>
           Selling to the wholesale market only, Splash strives to be your first choice as a supplier, bringing you the newest and on-trend products all year round, including our very popular and bi-annual Pre-Booking programs for Spring, Garden & Patio, as well as for Christmas/Holidays. Our Home Décor products will be the perfect fit for any retail store with categories ranging from Food, Wine and Entertainment items to Planters, Pots and Baskets, as well as Baby, Wedding and Graduation gifts to everything for your Cottage, Cabin and Farmhouse Décor. We also have a large selection of signs, Wall Art and Mirrors and special gifts for both Ladies & Men.
           <br/><br/>
