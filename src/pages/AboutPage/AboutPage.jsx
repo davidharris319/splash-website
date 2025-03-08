@@ -2,7 +2,7 @@ import React from "react";
 import "./AboutPage.css";
 import bugPins from '../../images/product_pictures/bug_pins.jpg'
 import spouseMugs from '../../images/product_pictures/spouse_mugs.jpg'
-import socking from '../../images/product_pictures/socking.jpg'
+import socking from '../../images/product_pictures/red_truck.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
