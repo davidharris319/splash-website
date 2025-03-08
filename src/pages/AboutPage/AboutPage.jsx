@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutPage.css";
-import labMug from '../../images/product_pictures/spouse-mug.jpg'
+import spouseMug from '../../images/product_pictures/spouse-mug.jpg'
 import bugPins from '../../images/product_pictures/bug-pins.jpg'
 import socking from '../../images/product_pictures/socking.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
@@ -32,7 +32,7 @@ function AboutPage() {
               <img src={bugPins} alt="Planter Pot"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={labMug} alt="Succulents and Candle"/>
+              <img src={spouseMug} alt="Succulents and Candle"/>
             </SplideSlide>
             <SplideSlide>
               <img src= {socking} alt="Ceramic Lantern Houses"/>
