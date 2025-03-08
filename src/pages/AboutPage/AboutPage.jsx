@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutPage.css";
-import bugPins from '../../images/product_pictures/bug_pins.jpg'
-import spouseMugs from '../../images/product_pictures/spouse_mugs.jpg'
+import spouseMug from '../../images/product_pictures/spouse-mug.jpg'
+import bugPins from '../../images/product_pictures/bug-pins.jpg'
 import socking from '../../images/product_pictures/socking.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
 
@@ -15,6 +15,7 @@ const primaryOptions = {
   gap    : '1rem',
   autoplay: true,
   interval: 3000,
+  heightratio: 0.3,
 };
 
 
@@ -28,13 +29,13 @@ function AboutPage() {
           <div className="about-picture">
           <Splide options= {primaryOptions} >
             <SplideSlide>
-              <img src={spouseMugs} alt="Planter Pot"/>
+              <img src={bugPins} alt="Planter Pot"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={bugPins} alt="Succulents and Candle"/>
+              <img src={spouseMug} alt="Succulents and Candle"/>
             </SplideSlide>
             <SplideSlide>
-              <img src={socking} alt="Ceramic Lantern Houses"/>
+              <img src= {socking} alt="Ceramic Lantern Houses"/>
             </SplideSlide>
           </Splide>
           </div>
