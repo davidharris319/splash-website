@@ -2,7 +2,7 @@ import React from "react";
 import "./AboutPage.css";
 import spouseMug from '../../images/product_pictures/spouse-mug.jpg'
 import bugPins from '../../images/product_pictures/bug-pins.jpg'
-import socking from '../../images/product_pictures/socking.jpg'
+import redTruck from '../../images/product_pictures/red_truck.jpg'
 import Nav2 from "../../components/Nav2/Nav2";
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -35,7 +35,7 @@ function AboutPage() {
               <img src={spouseMug} alt="Succulents and Candle"/>
             </SplideSlide>
             <SplideSlide>
-              <img src= {socking} alt="Ceramic Lantern Houses"/>
+              <img src= {redTruck} alt="Ceramic Lantern Houses"/>
             </SplideSlide>
           </Splide>
           </div>
